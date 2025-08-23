@@ -1,0 +1,21 @@
+﻿@using VideoGameLibrary.Models
+@model VideoGame
+
+<div class="video-game">
+    <div>
+        <h2>Game: @Model.Title</h2>
+        <p>Platform(s): @Model.Platform</p>
+        <p>Genre: @Model.Genre</p>
+        <p>ESRB Rating: @Model.ESRBRating</p>
+        <p>Year Released: @Model.Year</p>
+        @{
+            if(Model.LoanedTo != null){
+                <p class="loan-info">Loaned to: @Model.LoanedTo</p>
+                <p class="loan-info">Loaned at: @Model.LoanedDate</p>
+            }
+        }
+    </div>
+    <div>
+        <img class="images" src="@Model.Image" alt="@Model.Title" />
+    </div>
+</div>

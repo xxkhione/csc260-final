@@ -1,0 +1,54 @@
+﻿@page
+@using VideoGameLibrary.Models
+@using VideoGameLibrary.Pages
+@model LoanModel
+@{
+    ViewData["Title"] = "Loan a Game";
+}
+
+<h1>Want to Loan a Game?</h1>
+<h6>Pick a game and enter your name below!</h6>
+<form method="post">
+    <div>
+    <label>Game Title:</label>
+        <select asp-for="LoanGameId">
+            @{
+                foreach(VideoGame videoGame in Model.videoGames)
+                {
+                    if(videoGame.LoanedTo == null){
+                        <option value="@videoGame.VideoGameId">@videoGame.Title</option>
+                    }
+                }
+            }
+        </select>
+    </div>
+    <div>
+        <label asp-for="PersonLoaningData">Your Name:</label>
+        <input asp-for="PersonLoaningData"/>
+    </div>
+    <div>
+        <input type="submit" value="Loan Game"/>
+    </div>
+</form>
+
+<h1>Returning a game?</h1>
+<h6>Which game is being returned?</h6>
+<form method="post" asp-page-handler="Return">
+    <div>
+        <label>Game Title:</label>
+        <select asp-for="LoanGameId">
+            @{
+                foreach (VideoGame videoGame in Model.videoGames)
+                {
+                    if (videoGame.LoanedTo != null)
+                    {
+                        <option value="@videoGame.VideoGameId">@videoGame.Title</option>
+                    }
+                }
+            }
+        </select>
+    </div>
+    <div>
+        <input type="submit" value="Return Game" />
+    </div>
+</form>

@@ -1,0 +1,219 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{809FED6B-D54E-4FE9-A68D-D6AF390E157B}|VideoGameLibrary\\VideoGameLibrary.csproj|c:\\courses\\q6\\csc260\\videogamelibrary\\videogamelibrary\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{809FED6B-D54E-4FE9-A68D-D6AF390E157B}|VideoGameLibrary\\VideoGameLibrary.csproj|solutionrelative:videogamelibrary\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{809FED6B-D54E-4FE9-A68D-D6AF390E157B}|VideoGameLibrary\\VideoGameLibrary.csproj|c:\\courses\\q6\\csc260\\videogamelibrary\\videogamelibrary\\pages\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{809FED6B-D54E-4FE9-A68D-D6AF390E157B}|VideoGameLibrary\\VideoGameLibrary.csproj|solutionrelative:videogamelibrary\\pages\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{809FED6B-D54E-4FE9-A68D-D6AF390E157B}|VideoGameLibrary\\VideoGameLibrary.csproj|c:\\courses\\q6\\csc260\\videogamelibrary\\videogamelibrary\\pages\\search.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{809FED6B-D54E-4FE9-A68D-D6AF390E157B}|VideoGameLibrary\\VideoGameLibrary.csproj|solutionrelative:videogamelibrary\\pages\\search.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{809FED6B-D54E-4FE9-A68D-D6AF390E157B}|VideoGameLibrary\\VideoGameLibrary.csproj|c:\\courses\\q6\\csc260\\videogamelibrary\\videogamelibrary\\data\\videogameapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{809FED6B-D54E-4FE9-A68D-D6AF390E157B}|VideoGameLibrary\\VideoGameLibrary.csproj|solutionrelative:videogamelibrary\\data\\videogameapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{809FED6B-D54E-4FE9-A68D-D6AF390E157B}|VideoGameLibrary\\VideoGameLibrary.csproj|c:\\courses\\q6\\csc260\\videogamelibrary\\videogamelibrary\\models\\videogame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{809FED6B-D54E-4FE9-A68D-D6AF390E157B}|VideoGameLibrary\\VideoGameLibrary.csproj|solutionrelative:videogamelibrary\\models\\videogame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{809FED6B-D54E-4FE9-A68D-D6AF390E157B}|VideoGameLibrary\\VideoGameLibrary.csproj|c:\\courses\\q6\\csc260\\videogamelibrary\\videogamelibrary\\pages\\loan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{809FED6B-D54E-4FE9-A68D-D6AF390E157B}|VideoGameLibrary\\VideoGameLibrary.csproj|solutionrelative:videogamelibrary\\pages\\loan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{809FED6B-D54E-4FE9-A68D-D6AF390E157B}|VideoGameLibrary\\VideoGameLibrary.csproj|c:\\courses\\q6\\csc260\\videogamelibrary\\videogamelibrary\\pages\\videogames.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{809FED6B-D54E-4FE9-A68D-D6AF390E157B}|VideoGameLibrary\\VideoGameLibrary.csproj|solutionrelative:videogamelibrary\\pages\\videogames.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{809FED6B-D54E-4FE9-A68D-D6AF390E157B}|VideoGameLibrary\\VideoGameLibrary.csproj|c:\\courses\\q6\\csc260\\videogamelibrary\\videogamelibrary\\data\\videogamedbdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{809FED6B-D54E-4FE9-A68D-D6AF390E157B}|VideoGameLibrary\\VideoGameLibrary.csproj|solutionrelative:videogamelibrary\\data\\videogamedbdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{809FED6B-D54E-4FE9-A68D-D6AF390E157B}|VideoGameLibrary\\VideoGameLibrary.csproj|c:\\courses\\q6\\csc260\\videogamelibrary\\videogamelibrary\\pages\\videogames.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{809FED6B-D54E-4FE9-A68D-D6AF390E157B}|VideoGameLibrary\\VideoGameLibrary.csproj|solutionrelative:videogamelibrary\\pages\\videogames.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{809FED6B-D54E-4FE9-A68D-D6AF390E157B}|VideoGameLibrary\\VideoGameLibrary.csproj|c:\\courses\\q6\\csc260\\videogamelibrary\\videogamelibrary\\pages\\loan.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{809FED6B-D54E-4FE9-A68D-D6AF390E157B}|VideoGameLibrary\\VideoGameLibrary.csproj|solutionrelative:videogamelibrary\\pages\\loan.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{809FED6B-D54E-4FE9-A68D-D6AF390E157B}|VideoGameLibrary\\VideoGameLibrary.csproj|c:\\courses\\q6\\csc260\\videogamelibrary\\videogamelibrary\\areas\\identity\\data\\logincontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{809FED6B-D54E-4FE9-A68D-D6AF390E157B}|VideoGameLibrary\\VideoGameLibrary.csproj|solutionrelative:videogamelibrary\\areas\\identity\\data\\logincontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{809FED6B-D54E-4FE9-A68D-D6AF390E157B}|VideoGameLibrary\\VideoGameLibrary.csproj|c:\\courses\\q6\\csc260\\videogamelibrary\\videogamelibrary\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{809FED6B-D54E-4FE9-A68D-D6AF390E157B}|VideoGameLibrary\\VideoGameLibrary.csproj|solutionrelative:videogamelibrary\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\Program.cs",
+              "RelativeDocumentMoniker": "VideoGameLibrary\\Program.cs",
+              "ToolTip": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\Program.cs",
+              "RelativeToolTip": "VideoGameLibrary\\Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwBsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T23:15:35.447Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "VideoGameLibrary\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "VideoGameLibrary\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-29T20:12:14.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LoginContext.cs",
+              "DocumentMoniker": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\Areas\\Identity\\Data\\LoginContext.cs",
+              "RelativeDocumentMoniker": "VideoGameLibrary\\Areas\\Identity\\Data\\LoginContext.cs",
+              "ToolTip": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\Areas\\Identity\\Data\\LoginContext.cs",
+              "RelativeToolTip": "VideoGameLibrary\\Areas\\Identity\\Data\\LoginContext.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAIA8wB8AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T14:32:05.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "VideoGame.cs",
+              "DocumentMoniker": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\Models\\VideoGame.cs",
+              "RelativeDocumentMoniker": "VideoGameLibrary\\Models\\VideoGame.cs",
+              "ToolTip": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\Models\\VideoGame.cs",
+              "RelativeToolTip": "VideoGameLibrary\\Models\\VideoGame.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T15:00:12.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Loan.cshtml.cs",
+              "DocumentMoniker": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\Pages\\Loan.cshtml.cs",
+              "RelativeDocumentMoniker": "VideoGameLibrary\\Pages\\Loan.cshtml.cs",
+              "ToolTip": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\Pages\\Loan.cshtml.cs",
+              "RelativeToolTip": "VideoGameLibrary\\Pages\\Loan.cshtml.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T14:30:22.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Loan.cshtml",
+              "DocumentMoniker": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\Pages\\Loan.cshtml",
+              "RelativeDocumentMoniker": "VideoGameLibrary\\Pages\\Loan.cshtml",
+              "ToolTip": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\Pages\\Loan.cshtml",
+              "RelativeToolTip": "VideoGameLibrary\\Pages\\Loan.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-14T14:30:17.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "VideoGames.cshtml",
+              "DocumentMoniker": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\Pages\\VideoGames.cshtml",
+              "RelativeDocumentMoniker": "VideoGameLibrary\\Pages\\VideoGames.cshtml",
+              "ToolTip": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\Pages\\VideoGames.cshtml",
+              "RelativeToolTip": "VideoGameLibrary\\Pages\\VideoGames.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-14T12:45:03.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Search.cshtml",
+              "DocumentMoniker": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\Pages\\Search.cshtml",
+              "RelativeDocumentMoniker": "VideoGameLibrary\\Pages\\Search.cshtml",
+              "ToolTip": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\Pages\\Search.cshtml",
+              "RelativeToolTip": "VideoGameLibrary\\Pages\\Search.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-14T14:03:53.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Search.cshtml.cs",
+              "DocumentMoniker": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\Pages\\Search.cshtml.cs",
+              "RelativeDocumentMoniker": "VideoGameLibrary\\Pages\\Search.cshtml.cs",
+              "ToolTip": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\Pages\\Search.cshtml.cs",
+              "RelativeToolTip": "VideoGameLibrary\\Pages\\Search.cshtml.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAkwCAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T13:55:25.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "VideoGameDBDal.cs",
+              "DocumentMoniker": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\Data\\VideoGameDBDal.cs",
+              "RelativeDocumentMoniker": "VideoGameLibrary\\Data\\VideoGameDBDal.cs",
+              "ToolTip": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\Data\\VideoGameDBDal.cs",
+              "RelativeToolTip": "VideoGameLibrary\\Data\\VideoGameDBDal.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwDYAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T12:33:43.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "VideoGames.cshtml.cs",
+              "DocumentMoniker": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\Pages\\VideoGames.cshtml.cs",
+              "RelativeDocumentMoniker": "VideoGameLibrary\\Pages\\VideoGames.cshtml.cs",
+              "ToolTip": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\Pages\\VideoGames.cshtml.cs",
+              "RelativeToolTip": "VideoGameLibrary\\Pages\\VideoGames.cshtml.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAA2wDIAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T11:50:12.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VideoGameApiService.cs",
+              "DocumentMoniker": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\Data\\VideoGameApiService.cs",
+              "RelativeDocumentMoniker": "VideoGameLibrary\\Data\\VideoGameApiService.cs",
+              "ToolTip": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\Data\\VideoGameApiService.cs",
+              "RelativeToolTip": "VideoGameLibrary\\Data\\VideoGameApiService.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAgwEsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T20:29:40.649Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

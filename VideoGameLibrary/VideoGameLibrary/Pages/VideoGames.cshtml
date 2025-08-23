@@ -1,0 +1,59 @@
+﻿@page
+@using VideoGameLibrary.Models
+@using VideoGameLibrary.Pages
+@model VideoGamesModel
+@{
+    ViewData["Title"] = "VideoGames";
+}
+<div class="form-div">
+    <form method="post" asp-page-handler="Search" class="search-and-filter-form">
+        <label>Search Term:</label>
+        <input asp-for="SearchKey" />
+        <input type="submit" value="Search" />
+    </form>
+
+    <p>Filter games -></p>
+    <form method="post" asp-page-handler="Filter" class="search-and-filter-form">
+        <label>Genre:</label>
+        <input asp-for="Genre" />
+        <label>Platform:</label>
+        <select asp-for="PlatformId">
+            <option value=""></option>
+            @{
+                foreach (Platform platform in Model.Platforms)
+                {
+                    <option value="@((int)platform)">@platform</option>
+                }
+            }
+        </select>
+        <label>ESRB Rating:</label>
+        <select asp-for="ESRBRatingId">
+            <option value=""></option>
+            @{
+                foreach (ESRBRating rating in Model.ESRBRatings)
+                {
+                    <option value="@((int)rating)">@rating</option>
+                }
+            }
+        </select>
+        <input type="submit" value="Filter" />
+    </form>
+</div>
+
+<div class="video-game-collection">
+    <h1>Video Games</h1>
+    <h6>Displayed games: @Model.ShownGames.Count()</h6>
+</div>
+
+<div>
+    @{
+        foreach(VideoGame videoGame in Model.ShownGames)
+        {
+            <partial name="_VideoGamePartial" model="videoGame"/>
+            <form method="post" asp-page-handler="Delete" class="video-game-delete">
+                <input asp-for="DeleteId" type="hidden" value="@videoGame.VideoGameId" />
+                <input type="submit" value="Delete Game"/>
+            </form>
+        }
+    }
+</div>

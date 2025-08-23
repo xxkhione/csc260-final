@@ -1,0 +1,33 @@
+﻿@page
+@using VideoGameLibrary.Models
+@model VideoGameLibrary.Pages.SearchModel
+@{
+    ViewData["Title"] = "Search For Games";
+}
+
+<h1>Search for New Games to Play!</h1>
+<div class="form-div">
+    <form method="post" asp-page-handler="Search">
+        <label>Search Term:</label>
+        <input asp-for="SearchQuery"/>
+        <input type="submit" value="Search"/>
+    </form>
+</div>
+
+@if(Model.SearchResults != null)
+{
+    <div>
+        @{
+            foreach (VideoGame videoGame in Model.SearchResults)
+            {
+                <partial name="_VideoGamePartial" model="videoGame" />
+                <form method="post" asp-page-handler="AddToCollection" asp-route-gameId="@videoGame.ApiGameId">
+                    <input type="submit" value="Add To Collection"/>
+                </form>
+                <form method="post" asp-page-handler="AddToWishList" asp-route-gameId="@videoGame.ApiGameId">
+                    <input type="submit" value="Add To WishList" />
+                </form>
+            }
+        }
+    </div>
+}
