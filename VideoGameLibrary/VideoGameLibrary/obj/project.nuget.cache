@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NjZtBiWYnBE=",
+  "dgSpecHash": "I+etDv37UvE=",
   "success": true,
-  "projectFilePath": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\VideoGameLibrary.csproj",
+  "projectFilePath": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\VideoGameLibrary.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dsargent\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\dsargent\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
