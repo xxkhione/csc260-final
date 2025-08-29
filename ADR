@@ -1,5 +1,4 @@
 Repo Name: csc260-final (accepted)
 Context: Add 2 features in ~2 weeks
 Other repos considered: lobehub/lobe-chat
-Decision reason: Picked this repo because, given the timeframe, it will be easier to add a new feature without dealing with a large number of pre-existing components and features like the other repo had. Having experience in this codebase,
-It will be easier to implement new changes and break it apart into two microservices.
+Decision reason: Picked this repo because, given the timeframe, it will be easier to add a new feature without dealing with a large number of pre-existing components and features like the other repo had. Having experience with this codebase, it will be easier to implement new changes and break it apart into two microservices.
