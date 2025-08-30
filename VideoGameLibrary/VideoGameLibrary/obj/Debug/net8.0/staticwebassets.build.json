@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "7XCy1s245D21Vw4L2ABs6uYVSHLjl8q9/7c4H+OGiY4=",
+  "Hash": "IbNGtYTByKb/PyqjviVWleSvr+/+twAkS3Iv1ZTaNpY=",
   "Source": "VideoGameLibrary",
   "BasePath": "_content/VideoGameLibrary",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "VideoGameLibrary\\wwwroot",
       "Source": "VideoGameLibrary",
-      "ContentRoot": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
       "BasePath": "_content/VideoGameLibrary",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\obj\\Debug\\net8.0\\scopedcss\\bundle\\VideoGameLibrary.styles.css",
+      "Identity": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\obj\\Debug\\net8.0\\scopedcss\\bundle\\VideoGameLibrary.styles.css",
       "SourceId": "VideoGameLibrary",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/VideoGameLibrary",
       "RelativePath": "VideoGameLibrary#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
@@ -35,13 +35,13 @@
       "Integrity": "/HXbosPNwP4VtQ1AfsJTwrpUc9ON7JiDZiTaLTf0In4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\obj\\Debug\\net8.0\\scopedcss\\bundle\\VideoGameLibrary.styles.css"
+      "OriginalItemSpec": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\obj\\Debug\\net8.0\\scopedcss\\bundle\\VideoGameLibrary.styles.css"
     },
     {
-      "Identity": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\VideoGameLibrary.bundle.scp.css",
+      "Identity": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\VideoGameLibrary.bundle.scp.css",
       "SourceId": "VideoGameLibrary",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/VideoGameLibrary",
       "RelativePath": "VideoGameLibrary#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
@@ -56,13 +56,13 @@
       "Integrity": "/HXbosPNwP4VtQ1AfsJTwrpUc9ON7JiDZiTaLTf0In4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\VideoGameLibrary.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\VideoGameLibrary.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\css\\site.css",
       "SourceId": "VideoGameLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
       "BasePath": "_content/VideoGameLibrary",
       "RelativePath": "css/site#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -80,10 +80,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\favicon.ico",
       "SourceId": "VideoGameLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
       "BasePath": "_content/VideoGameLibrary",
       "RelativePath": "favicon#[.{fingerprint}]?.ico",
       "AssetKind": "All",
@@ -101,10 +101,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\images\\AnimalCrossing.jpg",
+      "Identity": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\images\\AnimalCrossing.jpg",
       "SourceId": "VideoGameLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
       "BasePath": "_content/VideoGameLibrary",
       "RelativePath": "images/AnimalCrossing#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -122,10 +122,10 @@
       "OriginalItemSpec": "wwwroot\\images\\AnimalCrossing.jpg"
     },
     {
-      "Identity": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\images\\BaldursGate3.jpg",
+      "Identity": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\images\\BaldursGate3.jpg",
       "SourceId": "VideoGameLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
       "BasePath": "_content/VideoGameLibrary",
       "RelativePath": "images/BaldursGate3#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -143,10 +143,10 @@
       "OriginalItemSpec": "wwwroot\\images\\BaldursGate3.jpg"
     },
     {
-      "Identity": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\images\\FinalFantasyXIII.jpg",
+      "Identity": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\images\\FinalFantasyXIII.jpg",
       "SourceId": "VideoGameLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
       "BasePath": "_content/VideoGameLibrary",
       "RelativePath": "images/FinalFantasyXIII#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -164,10 +164,10 @@
       "OriginalItemSpec": "wwwroot\\images\\FinalFantasyXIII.jpg"
     },
     {
-      "Identity": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\images\\RageTwo.jpg",
+      "Identity": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\images\\RageTwo.jpg",
       "SourceId": "VideoGameLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
       "BasePath": "_content/VideoGameLibrary",
       "RelativePath": "images/RageTwo#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -185,10 +185,10 @@
       "OriginalItemSpec": "wwwroot\\images\\RageTwo.jpg"
     },
     {
-      "Identity": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\images\\Skyrim.png",
+      "Identity": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\images\\Skyrim.png",
       "SourceId": "VideoGameLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
       "BasePath": "_content/VideoGameLibrary",
       "RelativePath": "images/Skyrim#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -206,10 +206,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Skyrim.png"
     },
     {
-      "Identity": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\js\\site.js",
       "SourceId": "VideoGameLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
       "BasePath": "_content/VideoGameLibrary",
       "RelativePath": "js/site#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -227,10 +227,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "VideoGameLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
       "BasePath": "_content/VideoGameLibrary",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -248,10 +248,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "VideoGameLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
       "BasePath": "_content/VideoGameLibrary",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -269,10 +269,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "VideoGameLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
       "BasePath": "_content/VideoGameLibrary",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -290,10 +290,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "VideoGameLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
       "BasePath": "_content/VideoGameLibrary",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -311,10 +311,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "VideoGameLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
       "BasePath": "_content/VideoGameLibrary",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -332,10 +332,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "VideoGameLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
       "BasePath": "_content/VideoGameLibrary",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -353,10 +353,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "VideoGameLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
       "BasePath": "_content/VideoGameLibrary",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "VideoGameLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
       "BasePath": "_content/VideoGameLibrary",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -395,10 +395,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "VideoGameLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
       "BasePath": "_content/VideoGameLibrary",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "VideoGameLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
       "BasePath": "_content/VideoGameLibrary",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -437,10 +437,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "VideoGameLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
       "BasePath": "_content/VideoGameLibrary",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -458,10 +458,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "VideoGameLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
       "BasePath": "_content/VideoGameLibrary",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -479,10 +479,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "VideoGameLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
       "BasePath": "_content/VideoGameLibrary",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -500,10 +500,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "VideoGameLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
       "BasePath": "_content/VideoGameLibrary",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -521,10 +521,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "VideoGameLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
       "BasePath": "_content/VideoGameLibrary",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -542,10 +542,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "VideoGameLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
       "BasePath": "_content/VideoGameLibrary",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -563,10 +563,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "VideoGameLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
       "BasePath": "_content/VideoGameLibrary",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -584,10 +584,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "VideoGameLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
       "BasePath": "_content/VideoGameLibrary",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -605,10 +605,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "VideoGameLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
       "BasePath": "_content/VideoGameLibrary",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -626,10 +626,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "VideoGameLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
       "BasePath": "_content/VideoGameLibrary",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -647,10 +647,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "VideoGameLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
       "BasePath": "_content/VideoGameLibrary",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -668,10 +668,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "VideoGameLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
       "BasePath": "_content/VideoGameLibrary",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -689,10 +689,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "VideoGameLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
       "BasePath": "_content/VideoGameLibrary",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -710,10 +710,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "VideoGameLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
       "BasePath": "_content/VideoGameLibrary",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "VideoGameLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
       "BasePath": "_content/VideoGameLibrary",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -752,10 +752,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "VideoGameLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
       "BasePath": "_content/VideoGameLibrary",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -773,10 +773,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "VideoGameLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
       "BasePath": "_content/VideoGameLibrary",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -794,10 +794,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "VideoGameLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
       "BasePath": "_content/VideoGameLibrary",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -815,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "VideoGameLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
       "BasePath": "_content/VideoGameLibrary",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -836,10 +836,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "VideoGameLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
       "BasePath": "_content/VideoGameLibrary",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -857,10 +857,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "VideoGameLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
       "BasePath": "_content/VideoGameLibrary",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -878,10 +878,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "VideoGameLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
       "BasePath": "_content/VideoGameLibrary",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -899,10 +899,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "VideoGameLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
       "BasePath": "_content/VideoGameLibrary",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -920,10 +920,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "VideoGameLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
       "BasePath": "_content/VideoGameLibrary",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -941,10 +941,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "VideoGameLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
       "BasePath": "_content/VideoGameLibrary",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -962,10 +962,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "VideoGameLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
       "BasePath": "_content/VideoGameLibrary",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -983,10 +983,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "VideoGameLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
       "BasePath": "_content/VideoGameLibrary",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1004,10 +1004,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "VideoGameLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
       "BasePath": "_content/VideoGameLibrary",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1025,10 +1025,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "VideoGameLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
       "BasePath": "_content/VideoGameLibrary",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1046,10 +1046,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "VideoGameLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
       "BasePath": "_content/VideoGameLibrary",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1067,10 +1067,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "VideoGameLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
       "BasePath": "_content/VideoGameLibrary",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "VideoGameLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
       "BasePath": "_content/VideoGameLibrary",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1109,10 +1109,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "VideoGameLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
       "BasePath": "_content/VideoGameLibrary",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1130,10 +1130,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "VideoGameLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
       "BasePath": "_content/VideoGameLibrary",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1151,10 +1151,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "VideoGameLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
       "BasePath": "_content/VideoGameLibrary",
       "RelativePath": "lib/bootstrap/LICENSE#[.{fingerprint}]?",
       "AssetKind": "All",
@@ -1172,10 +1172,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "VideoGameLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
       "BasePath": "_content/VideoGameLibrary",
       "RelativePath": "lib/jquery/dist/jquery#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1193,10 +1193,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "VideoGameLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
       "BasePath": "_content/VideoGameLibrary",
       "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1214,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "VideoGameLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
       "BasePath": "_content/VideoGameLibrary",
       "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1235,10 +1235,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "VideoGameLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
       "BasePath": "_content/VideoGameLibrary",
       "RelativePath": "lib/jquery/LICENSE#[.{fingerprint}]?.txt",
       "AssetKind": "All",
@@ -1256,10 +1256,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "VideoGameLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
       "BasePath": "_content/VideoGameLibrary",
       "RelativePath": "lib/jquery-validation/dist/additional-methods#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1277,10 +1277,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "VideoGameLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
       "BasePath": "_content/VideoGameLibrary",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1298,10 +1298,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "VideoGameLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
       "BasePath": "_content/VideoGameLibrary",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1319,10 +1319,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "VideoGameLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
       "BasePath": "_content/VideoGameLibrary",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1340,10 +1340,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "VideoGameLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
       "BasePath": "_content/VideoGameLibrary",
       "RelativePath": "lib/jquery-validation/LICENSE#[.{fingerprint}]?.md",
       "AssetKind": "All",
@@ -1361,10 +1361,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "VideoGameLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
       "BasePath": "_content/VideoGameLibrary",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1382,10 +1382,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "VideoGameLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
       "BasePath": "_content/VideoGameLibrary",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1403,10 +1403,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "VideoGameLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
+      "ContentRoot": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\",
       "BasePath": "_content/VideoGameLibrary",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE#[.{fingerprint}]?.txt",
       "AssetKind": "All",
@@ -2687,7 +2687,7 @@
   "Endpoints": [
     {
       "Route": "css/site.css",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\css\\site.css",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2724,7 +2724,7 @@
     },
     {
       "Route": "css/site.lpbey2q5jv.css",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\css\\site.css",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2769,7 +2769,7 @@
     },
     {
       "Route": "favicon.fsaiprwhwd.ico",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\favicon.ico",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2814,7 +2814,7 @@
     },
     {
       "Route": "favicon.ico",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\favicon.ico",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5071,7 +5071,7 @@
     },
     {
       "Route": "images/AnimalCrossing.jpg",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\images\\AnimalCrossing.jpg",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\images\\AnimalCrossing.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5108,7 +5108,7 @@
     },
     {
       "Route": "images/AnimalCrossing.wetqsll1d5.jpg",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\images\\AnimalCrossing.jpg",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\images\\AnimalCrossing.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5153,7 +5153,7 @@
     },
     {
       "Route": "images/BaldursGate3.jpg",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\images\\BaldursGate3.jpg",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\images\\BaldursGate3.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5190,7 +5190,7 @@
     },
     {
       "Route": "images/BaldursGate3.xzy76h2cfb.jpg",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\images\\BaldursGate3.jpg",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\images\\BaldursGate3.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5235,7 +5235,7 @@
     },
     {
       "Route": "images/FinalFantasyXIII.968n2ir3zn.jpg",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\images\\FinalFantasyXIII.jpg",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\images\\FinalFantasyXIII.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5280,7 +5280,7 @@
     },
     {
       "Route": "images/FinalFantasyXIII.jpg",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\images\\FinalFantasyXIII.jpg",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\images\\FinalFantasyXIII.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5317,7 +5317,7 @@
     },
     {
       "Route": "images/RageTwo.iyokdc8ey0.jpg",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\images\\RageTwo.jpg",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\images\\RageTwo.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5362,7 +5362,7 @@
     },
     {
       "Route": "images/RageTwo.jpg",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\images\\RageTwo.jpg",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\images\\RageTwo.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5399,7 +5399,7 @@
     },
     {
       "Route": "images/Skyrim.jb7wx38ciu.png",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\images\\Skyrim.png",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\images\\Skyrim.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5444,7 +5444,7 @@
     },
     {
       "Route": "images/Skyrim.png",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\images\\Skyrim.png",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\images\\Skyrim.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5481,7 +5481,7 @@
     },
     {
       "Route": "js/site.js",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\js\\site.js",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5518,7 +5518,7 @@
     },
     {
       "Route": "js/site.xtxxf3hu2r.js",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\js\\site.js",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5563,7 +5563,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5600,7 +5600,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css.73kdqttayv.map",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5645,7 +5645,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css.map",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5682,7 +5682,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.bpk8xqwxhs.css",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5727,7 +5727,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5764,7 +5764,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css.8inm30yfxf.map",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5809,7 +5809,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css.map",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5846,7 +5846,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.mpyigms19s.css",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5891,7 +5891,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5928,7 +5928,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.4gxs3k148c.map",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5973,7 +5973,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6010,7 +6010,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.9b9oa1qrmt.css",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6055,7 +6055,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6092,7 +6092,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.fctod5rc9n.map",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6137,7 +6137,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6174,7 +6174,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.ve6x09088i.css",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6219,7 +6219,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.agp80tu62r.css",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6264,7 +6264,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6301,7 +6301,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6338,7 +6338,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css.st1cbwfwo5.map",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6383,7 +6383,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6420,7 +6420,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css.5vj65cig9w.map",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6465,7 +6465,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6502,7 +6502,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.unj9p35syc.css",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6547,7 +6547,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6584,7 +6584,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.2q4vfeazbq.map",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6629,7 +6629,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6666,7 +6666,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6703,7 +6703,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6740,7 +6740,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.o371a8zbv2.map",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6785,7 +6785,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.n1oizzvkh6.css",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6830,7 +6830,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.q2ku51ktnl.css",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6875,7 +6875,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.7na4sro3qu.css",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6920,7 +6920,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6957,7 +6957,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css.jeal3x0ldm.map",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7002,7 +7002,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7039,7 +7039,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7076,7 +7076,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7113,7 +7113,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.okkk44j0xs.map",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7158,7 +7158,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.f8imaxxbri.css",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7203,7 +7203,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.0wve5yxp74.css",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7248,7 +7248,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7285,7 +7285,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.cwzlr5n8x4.map",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7330,7 +7330,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7367,7 +7367,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7404,7 +7404,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7441,7 +7441,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.wmug9u23qg.map",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7486,7 +7486,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.npxfuf8dg6.css",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7531,7 +7531,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7568,7 +7568,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css.j75batdsum.map",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7613,7 +7613,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7650,7 +7650,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.16095smhkz.css",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7695,7 +7695,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7732,7 +7732,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7769,7 +7769,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.vy0bq9ydhf.map",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7814,7 +7814,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.b4skse8du6.css",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7859,7 +7859,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7896,7 +7896,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.ab1c3rmv7g.map",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7941,7 +7941,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7978,7 +7978,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8015,7 +8015,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.56d2bn4wt9.map",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8060,7 +8060,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8097,7 +8097,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.u3xrusw2ol.css",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8142,7 +8142,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.tey0rigmnh.css",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8187,7 +8187,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8224,7 +8224,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js.kbynt5jhd9.map",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8269,7 +8269,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8306,7 +8306,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.l2av4jpuoj.js",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8351,7 +8351,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.25iw1kog22.js",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8396,7 +8396,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8433,7 +8433,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.c2nslu3uf3.map",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8478,7 +8478,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8515,7 +8515,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8552,7 +8552,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js.2lgwfvgpvi.map",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8597,7 +8597,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8634,7 +8634,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.m39kt2b5c9.js",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8679,7 +8679,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8716,7 +8716,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8753,7 +8753,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js.wsezl0heh6.map",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8798,7 +8798,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.um2aeqy4ik.js",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8843,7 +8843,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8880,7 +8880,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js.6ukhryfubh.map",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8925,7 +8925,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js.map",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8962,7 +8962,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8999,7 +8999,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js.map",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9036,7 +9036,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js.u33ctipx7g.map",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9081,7 +9081,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.zwph15dxgs.js",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9126,7 +9126,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.o4kw7cc6tf.js",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9171,7 +9171,7 @@
     },
     {
       "Route": "lib/bootstrap/LICENSE",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9208,7 +9208,7 @@
     },
     {
       "Route": "lib/bootstrap/LICENSE.81b7ukuj9c",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\bootstrap\\LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9253,7 +9253,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.fwhahm2icz.js",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9298,7 +9298,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.js",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9335,7 +9335,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.5pze98is44.map",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9380,7 +9380,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.dd6z7egasc.js",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9425,7 +9425,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.js",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9462,7 +9462,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.map",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9499,7 +9499,7 @@
     },
     {
       "Route": "lib/jquery/LICENSE.mlv21k5csn.txt",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9544,7 +9544,7 @@
     },
     {
       "Route": "lib/jquery/LICENSE.txt",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9581,7 +9581,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.ay5nd8zt9x.js",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9626,7 +9626,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.js",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9663,7 +9663,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.min.9oaff4kq20.js",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9708,7 +9708,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.min.js",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9745,7 +9745,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.js",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9782,7 +9782,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.min.b7iojwaux1.js",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9827,7 +9827,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.min.js",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9864,7 +9864,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.pzqfkb6aqo.js",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9909,7 +9909,7 @@
     },
     {
       "Route": "lib/jquery-validation/LICENSE.md",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9946,7 +9946,7 @@
     },
     {
       "Route": "lib/jquery-validation/LICENSE.x0q3zqp4vz.md",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9991,7 +9991,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.47otxtyo56.js",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10036,7 +10036,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10073,7 +10073,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.4v8eqarkd7.js",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10118,7 +10118,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10155,7 +10155,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/LICENSE.356vix0kms.txt",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10200,7 +10200,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/LICENSE.txt",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10237,7 +10237,7 @@
     },
     {
       "Route": "VideoGameLibrary.0rbe3wizyz.bundle.scp.css",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\VideoGameLibrary.bundle.scp.css",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\VideoGameLibrary.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10282,7 +10282,7 @@
     },
     {
       "Route": "VideoGameLibrary.0rbe3wizyz.styles.css",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\obj\\Debug\\net8.0\\scopedcss\\bundle\\VideoGameLibrary.styles.css",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\obj\\Debug\\net8.0\\scopedcss\\bundle\\VideoGameLibrary.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10327,7 +10327,7 @@
     },
     {
       "Route": "VideoGameLibrary.bundle.scp.css",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\VideoGameLibrary.bundle.scp.css",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\VideoGameLibrary.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10364,7 +10364,7 @@
     },
     {
       "Route": "VideoGameLibrary.styles.css",
-      "AssetFile": "C:\\Courses\\Q6\\CSC260\\VideoGameLibrary\\VideoGameLibrary\\obj\\Debug\\net8.0\\scopedcss\\bundle\\VideoGameLibrary.styles.css",
+      "AssetFile": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\obj\\Debug\\net8.0\\scopedcss\\bundle\\VideoGameLibrary.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
