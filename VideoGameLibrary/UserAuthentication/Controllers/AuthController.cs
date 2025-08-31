@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Identity.Data;
+using Microsoft.AspNetCore.Mvc;
 using UserAuthentication.Services;
 
 namespace UserAuthentication.Controllers
@@ -16,15 +17,38 @@ namespace UserAuthentication.Controllers
         //Basic Gets and Posts in preparation for the migration of concerns.
 
         [HttpPost("login")]
-        public void Post()
+        public async Task<IActionResult> Login([FromBody] LoginRequest request)
         {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
 
+            var response = await _authService.LoginAsync(request);
+            if(response == null)
+            {
+                return Unauthorized(new { message = "Invalid login attempt." });
+            }
+
+            return Ok(response);
         }
 
         [HttpPost("register")]
-        public void PostRegistration()
+        public async Task<IActionResult> Register([FromBody] RegisterRequest request)
         {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
 
+            var result = await _authService.RegisterAsync(request);
+            if (!result.Succeeded)
+            {
+                var errors = result.Errors.Select(e => e.Description);
+                return BadRequest(new { message = "Registration Failed.", errors = errors });
+            }
+
+            return StatusCode(StatusCodes.Status201Created, new { message = "User registered successfully." });
         }
     }
 }

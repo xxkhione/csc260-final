@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E77FCF5E-B3CB-4FBC-B595-8413A337209A}|UserAuthentication\\UserAuthentication.csproj|c:\\courses\\q8\\pro250\\csc260-final\\videogamelibrary\\userauthentication\\controllers\\userauthenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E77FCF5E-B3CB-4FBC-B595-8413A337209A}|UserAuthentication\\UserAuthentication.csproj|solutionrelative:userauthentication\\controllers\\userauthenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{809FED6B-D54E-4FE9-A68D-D6AF390E157B}|VideoGameLibrary\\VideoGameLibrary.csproj|c:\\courses\\q8\\pro250\\csc260-final\\videogamelibrary\\videogamelibrary\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{809FED6B-D54E-4FE9-A68D-D6AF390E157B}|VideoGameLibrary\\VideoGameLibrary.csproj|solutionrelative:videogamelibrary\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{809FED6B-D54E-4FE9-A68D-D6AF390E157B}|VideoGameLibrary\\VideoGameLibrary.csproj|c:\\courses\\q8\\pro250\\csc260-final\\videogamelibrary\\videogamelibrary\\areas\\identity\\data\\logincontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{809FED6B-D54E-4FE9-A68D-D6AF390E157B}|VideoGameLibrary\\VideoGameLibrary.csproj|solutionrelative:videogamelibrary\\areas\\identity\\data\\logincontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E77FCF5E-B3CB-4FBC-B595-8413A337209A}|UserAuthentication\\UserAuthentication.csproj|c:\\courses\\q8\\pro250\\csc260-final\\videogamelibrary\\userauthentication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E77FCF5E-B3CB-4FBC-B595-8413A337209A}|UserAuthentication\\UserAuthentication.csproj|solutionrelative:userauthentication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,39 +22,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LoginContext.cs",
-              "DocumentMoniker": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\Areas\\Identity\\Data\\LoginContext.cs",
-              "RelativeDocumentMoniker": "VideoGameLibrary\\Areas\\Identity\\Data\\LoginContext.cs",
-              "ToolTip": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\Areas\\Identity\\Data\\LoginContext.cs",
-              "RelativeToolTip": "VideoGameLibrary\\Areas\\Identity\\Data\\LoginContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T22:03:07.859Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Register.cshtml.cs",
-              "DocumentMoniker": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "RelativeDocumentMoniker": "VideoGameLibrary\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "ToolTip": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\VideoGameLibrary\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "RelativeToolTip": "VideoGameLibrary\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T21:55:15.828Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UserAuthenticationController.cs",
-              "DocumentMoniker": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\UserAuthentication\\Controllers\\UserAuthenticationController.cs",
-              "RelativeDocumentMoniker": "UserAuthentication\\Controllers\\UserAuthenticationController.cs",
-              "ToolTip": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\UserAuthentication\\Controllers\\UserAuthenticationController.cs",
-              "RelativeToolTip": "UserAuthentication\\Controllers\\UserAuthenticationController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\UserAuthentication\\Program.cs",
+              "RelativeDocumentMoniker": "UserAuthentication\\Program.cs",
+              "ToolTip": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\UserAuthentication\\Program.cs",
+              "RelativeToolTip": "UserAuthentication\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T21:49:24.493Z",
+              "WhenOpened": "2025-08-30T21:41:11.025Z",
               "EditorCaption": ""
             }
           ]
