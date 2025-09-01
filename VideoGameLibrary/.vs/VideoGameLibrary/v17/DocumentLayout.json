@@ -46,8 +46,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -58,8 +62,7 @@
               "RelativeToolTip": "VideoGameLibrary\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-31T02:13:53.848Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-31T02:13:53.848Z"
             },
             {
               "$type": "Document",
@@ -84,8 +87,7 @@
               "RelativeToolTip": "UserAuthentication\\Controllers\\AuthController.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-31T01:49:46.997Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-31T01:49:46.997Z"
             },
             {
               "$type": "Document",
@@ -97,8 +99,7 @@
               "RelativeToolTip": "UserAuthentication\\Utilities\\JwtTokenGenerator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-31T01:49:45.216Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-31T01:49:45.216Z"
             },
             {
               "$type": "Document",
@@ -110,12 +111,7 @@
               "RelativeToolTip": "UserAuthentication\\Services\\AuthService.cs",
               "ViewState": "AgIAACAAAAAAAAAAAAAawDcAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-31T01:43:41.621Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "WhenOpened": "2025-08-31T01:43:41.621Z"
             },
             {
               "$type": "Document",
@@ -127,8 +123,7 @@
               "RelativeToolTip": "UserAuthentication\\Data\\UserAuthenticationDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-31T01:49:38.454Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-31T01:49:38.454Z"
             },
             {
               "$type": "Document",
@@ -140,8 +135,7 @@
               "RelativeToolTip": "UserAuthentication\\Models\\Responses\\AuthResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-31T01:49:32.38Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-31T01:49:32.38Z"
             },
             {
               "$type": "Document",
@@ -153,8 +147,7 @@
               "RelativeToolTip": "UserAuthentication\\Models\\Requests\\RegisterRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-31T01:49:28.568Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-31T01:49:28.568Z"
             },
             {
               "$type": "Document",
@@ -166,8 +159,7 @@
               "RelativeToolTip": "UserAuthentication\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-30T21:41:11.025Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-30T21:41:11.025Z"
             }
           ]
         }
