@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xsSXFl6n4Pk=",
+  "dgSpecHash": "r8sObl+TsjQ=",
   "success": true,
-  "projectFilePath": "C:\\Courses\\Q8\\PRO250\\csc260-final\\VideoGameLibrary\\UserAuthentication\\UserAuthentication.csproj",
+  "projectFilePath": "C:\\Courses\\Q8\\PRO250\\microservice\\VideoGameLibrary\\UserAuthentication\\UserAuthentication.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dsargent\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\dsargent\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
