@@ -2,7 +2,7 @@
 {
     public class WishListGame
     {
-        public int Id { get; set; }
+        public int WishListGameId { get; set; }
         public int ApiGameId { get; set; }
         public int VideoGameId { get; set; }
         public string Title { get; set; }

@@ -1,10 +1,8 @@
-﻿using Microsoft.AspNetCore.Identity;
-
-namespace UserData.Models.DTOs
+﻿namespace UserData.Models.DTOs
 {
     public class WishListGameDto
     {
-        public int Id { get; set; }
+        public int WishListGameId { get; set; }
         public int ApiGameId { get; set; }
         public int VideoGameId { get; set; }
         public string Title { get; set; }
