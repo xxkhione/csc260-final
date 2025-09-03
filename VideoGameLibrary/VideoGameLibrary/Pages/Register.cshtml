@@ -1,0 +1,75 @@
+﻿@page
+@model VideoGameLibrary.Pages.RegisterModel
+@{
+    ViewData["Title"] = "Register";
+}
+
+<div class="container bg-white p-8 rounded-xl shadow-lg border border-gray-200 mx-auto max-w-lg mt-10">
+    <h1 class="text-3xl font-bold text-center text-gray-800 mb-6">Create an Account</h1>
+    <p class="text-center text-gray-500 mb-6">Join us and start managing your game library.</p>
+    <form id="register" class="space-y-4">
+        <div>
+            <label for="register-email" class="block text-sm font-medium text-gray-700">Email Address</label>
+            <input type="email" id="register-email" required class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
+        </div>
+        <div>
+            <label for="register-password" class="block text-sm font-medium text-gray-700">Password</label>
+            <input type="password" id="register-password" required class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
+        </div>
+        <div>
+            <label for="register-confirm-password" class="block text-sm font-medium text-gray-700">Confirm Password</label>
+            <input type="password" id="register-confirm-password" required class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
+        </div>
+        <button type="submit" class="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+            Register
+        </button>
+        <div id="registerMessage" class="mt-4 text-center text-red-500 font-medium hidden"></div>
+    </form>
+</div>
+
+<script>
+    const registerForm = document.getElementById('register')
+    const registerMessage = document.getElementById('registerMessage')
+    const BASE_URL = 'https://localhost:7013'
+
+    registerForm.addEventListener('submit', async (e) => {
+        e.preventDefault()
+        const email = document.getElementById('register-email').value
+        const password = document.getElementById('register-password').value
+        const confirmPassword = document.getElementById('register-confirm-password').value
+        registerMessage.textContent = ''
+        registerMessage.classList.add('hidden')
+
+        if (password !== confirmPassword) {
+            registerMessage.textContent = 'Passwords do not match.'
+            registerMessage.classList.remove('hidden')
+            return
+        }
+
+        try {
+            const response = await fetch(`${BASE_URL}/api/Auth/register`, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ email, password }),
+            });
+
+            if (response.ok) {
+                registerMessage.textContent = 'Registration successful! You can now log in.'
+                registerMessage.classList.add('text-green-600')
+                registerMessage.classList.remove('text-red-500')
+                registerMessage.classList.remove('hidden')
+                window.location.href = '/Login'
+            } else {
+                const errorData = await response.json()
+                registerMessage.textContent = errorData.errors || 'Registration failed. Please try again.'
+                registerMessage.classList.remove('hidden')
+            }
+        } catch (error) {
+            registerMessage.textContent = 'An error occurred. Please try again later.'
+            registerMessage.classList.remove('hidden')
+            console.error('Error:', error)
+        }
+    });
+</script>

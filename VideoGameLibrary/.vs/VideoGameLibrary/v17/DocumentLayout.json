@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "C:\\Courses\\Q8\\PRO250\\microservice\\VideoGameLibrary\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{85CBB41E-CCA1-4AFD-9480-7EAEDD0AAAA8}|UserData\\UserData.csproj|c:\\courses\\q8\\pro250\\microservice\\videogamelibrary\\userdata\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85CBB41E-CCA1-4AFD-9480-7EAEDD0AAAA8}|UserData\\UserData.csproj|solutionrelative:userdata\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85CBB41E-CCA1-4AFD-9480-7EAEDD0AAAA8}|UserData\\UserData.csproj|c:\\courses\\q8\\pro250\\microservice\\videogamelibrary\\userdata\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{85CBB41E-CCA1-4AFD-9480-7EAEDD0AAAA8}|UserData\\UserData.csproj|solutionrelative:userdata\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E77FCF5E-B3CB-4FBC-B595-8413A337209A}|UserAuthentication\\UserAuthentication.csproj|c:\\courses\\q8\\pro250\\microservice\\videogamelibrary\\userauthentication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E77FCF5E-B3CB-4FBC-B595-8413A337209A}|UserAuthentication\\UserAuthentication.csproj|solutionrelative:userauthentication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E77FCF5E-B3CB-4FBC-B595-8413A337209A}|UserAuthentication\\UserAuthentication.csproj|c:\\courses\\q8\\pro250\\microservice\\videogamelibrary\\userauthentication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{E77FCF5E-B3CB-4FBC-B595-8413A337209A}|UserAuthentication\\UserAuthentication.csproj|solutionrelative:userauthentication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{809FED6B-D54E-4FE9-A68D-D6AF390E157B}|VideoGameLibrary\\VideoGameLibrary.csproj|c:\\courses\\q8\\pro250\\microservice\\videogamelibrary\\videogamelibrary\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{809FED6B-D54E-4FE9-A68D-D6AF390E157B}|VideoGameLibrary\\VideoGameLibrary.csproj|solutionrelative:videogamelibrary\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,54 +22,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Courses\\Q8\\PRO250\\microservice\\VideoGameLibrary\\UserAuthentication\\Program.cs",
-              "RelativeDocumentMoniker": "UserAuthentication\\Program.cs",
-              "ToolTip": "C:\\Courses\\Q8\\PRO250\\microservice\\VideoGameLibrary\\UserAuthentication\\Program.cs",
-              "RelativeToolTip": "UserAuthentication\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T05:57:01.236Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Courses\\Q8\\PRO250\\microservice\\VideoGameLibrary\\UserData\\Program.cs",
-              "RelativeDocumentMoniker": "UserData\\Program.cs",
-              "ToolTip": "C:\\Courses\\Q8\\PRO250\\microservice\\VideoGameLibrary\\UserData\\Program.cs",
-              "RelativeToolTip": "UserData\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T05:56:44.995Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Courses\\Q8\\PRO250\\microservice\\VideoGameLibrary\\UserAuthentication\\appsettings.json",
-              "RelativeDocumentMoniker": "UserAuthentication\\appsettings.json",
-              "ToolTip": "C:\\Courses\\Q8\\PRO250\\microservice\\VideoGameLibrary\\UserAuthentication\\appsettings.json",
-              "RelativeToolTip": "UserAuthentication\\appsettings.json",
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Courses\\Q8\\PRO250\\microservice\\VideoGameLibrary\\VideoGameLibrary\\Pages\\Login.cshtml",
+              "RelativeDocumentMoniker": "VideoGameLibrary\\Pages\\Login.cshtml",
+              "ToolTip": "C:\\Courses\\Q8\\PRO250\\microservice\\VideoGameLibrary\\VideoGameLibrary\\Pages\\Login.cshtml",
+              "RelativeToolTip": "VideoGameLibrary\\Pages\\Login.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-03T05:56:34.72Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Courses\\Q8\\PRO250\\microservice\\VideoGameLibrary\\UserData\\appsettings.json",
-              "RelativeDocumentMoniker": "UserData\\appsettings.json",
-              "ToolTip": "C:\\Courses\\Q8\\PRO250\\microservice\\VideoGameLibrary\\UserData\\appsettings.json",
-              "RelativeToolTip": "UserData\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-03T05:56:26.965Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-03T19:16:13.172Z",
               "EditorCaption": ""
             }
           ]

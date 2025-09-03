@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Courses\\Q8\\PRO250\\microservice\\VideoGameLibrary\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{85CBB41E-CCA1-4AFD-9480-7EAEDD0AAAA8}|UserData\\UserData.csproj|c:\\courses\\q8\\pro250\\microservice\\videogamelibrary\\userdata\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85CBB41E-CCA1-4AFD-9480-7EAEDD0AAAA8}|UserData\\UserData.csproj|solutionrelative:userdata\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{809FED6B-D54E-4FE9-A68D-D6AF390E157B}|VideoGameLibrary\\VideoGameLibrary.csproj|c:\\courses\\q8\\pro250\\microservice\\videogamelibrary\\videogamelibrary\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{809FED6B-D54E-4FE9-A68D-D6AF390E157B}|VideoGameLibrary\\VideoGameLibrary.csproj|solutionrelative:videogamelibrary\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,14 +23,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Courses\\Q8\\PRO250\\microservice\\VideoGameLibrary\\UserData\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "UserData\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Courses\\Q8\\PRO250\\microservice\\VideoGameLibrary\\UserData\\Controllers\\UserController.cs",
-              "RelativeToolTip": "UserData\\Controllers\\UserController.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAA9wAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T05:45:02.927Z",
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Courses\\Q8\\PRO250\\microservice\\VideoGameLibrary\\VideoGameLibrary\\Pages\\Login.cshtml",
+              "RelativeDocumentMoniker": "VideoGameLibrary\\Pages\\Login.cshtml",
+              "ToolTip": "C:\\Courses\\Q8\\PRO250\\microservice\\VideoGameLibrary\\VideoGameLibrary\\Pages\\Login.cshtml",
+              "RelativeToolTip": "VideoGameLibrary\\Pages\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-03T19:16:13.172Z",
               "EditorCaption": ""
             }
           ]
