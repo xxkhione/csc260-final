@@ -296,3 +296,13 @@ C:\Courses\Q6\CSC260\VideoGameLibrary\VideoGameLibrary\obj\Debug\net8.0\refint\V
 C:\Courses\Q6\CSC260\VideoGameLibrary\VideoGameLibrary\obj\Debug\net8.0\VideoGameLibrary.pdb
 C:\Courses\Q6\CSC260\VideoGameLibrary\VideoGameLibrary\obj\Debug\net8.0\VideoGameLibrary.genruntimeconfig.cache
 C:\Courses\Q6\CSC260\VideoGameLibrary\VideoGameLibrary\obj\Debug\net8.0\ref\VideoGameLibrary.dll
+C:\Courses\Q8\PRO250\microservice\VideoGameLibrary\VideoGameLibrary\obj\Debug\net8.0\VideoGameLibrary.csproj.AssemblyReference.cache
+C:\Courses\Q8\PRO250\microservice\VideoGameLibrary\VideoGameLibrary\obj\Debug\net8.0\VideoGameLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Courses\Q8\PRO250\microservice\VideoGameLibrary\VideoGameLibrary\obj\Debug\net8.0\VideoGameLibrary.AssemblyInfoInputs.cache
+C:\Courses\Q8\PRO250\microservice\VideoGameLibrary\VideoGameLibrary\obj\Debug\net8.0\VideoGameLibrary.AssemblyInfo.cs
+C:\Courses\Q8\PRO250\microservice\VideoGameLibrary\VideoGameLibrary\obj\Debug\net8.0\VideoGameLibrary.csproj.CoreCompileInputs.cache
+C:\Courses\Q8\PRO250\microservice\VideoGameLibrary\VideoGameLibrary\obj\Debug\net8.0\VideoGameLibrary.MvcApplicationPartsAssemblyInfo.cs
+C:\Courses\Q8\PRO250\microservice\VideoGameLibrary\VideoGameLibrary\obj\Debug\net8.0\VideoGameLibrary.MvcApplicationPartsAssemblyInfo.cache
+C:\Courses\Q8\PRO250\microservice\VideoGameLibrary\VideoGameLibrary\obj\Debug\net8.0\VideoGameLibrary.RazorAssemblyInfo.cache
+C:\Courses\Q8\PRO250\microservice\VideoGameLibrary\VideoGameLibrary\obj\Debug\net8.0\VideoGameLibrary.RazorAssemblyInfo.cs
+C:\Courses\Q8\PRO250\microservice\VideoGameLibrary\VideoGameLibrary\obj\Debug\net8.0\VideoGameLibrary.sourcelink.json

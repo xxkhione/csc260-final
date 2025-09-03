@@ -3,15 +3,12 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.CodeAnalysis;
-using VideoGameLibrary.Data;
-using VideoGameLibrary.Models;
 
 namespace VideoGameLibrary.Pages
 {
     [Authorize]
     public class VideoGamesModel : PageModel
     {
-        public readonly LoginContext context;
         private readonly UserManager<IdentityUser> userManager;
         private IdentityUser user;
 
@@ -23,18 +20,16 @@ namespace VideoGameLibrary.Pages
         public string? Genre { get; set; }
         [BindProperty]
         public int? PlatformId { get; set; }
-        public List<Models.Platform> Platforms => Enum.GetValues<Models.Platform>().ToList();
+        public List<dynamic> Platforms { get; set; }
         [BindProperty]
         public int? ESRBRatingId { get; set; }
-        public List<ESRBRating> ESRBRatings => Enum.GetValues<ESRBRating>().ToList();
-        public VideoGameApiService videoGameApiService;
+        public List<dynamic> ESRBRatings { get; set; }
 
         
-        public List<VideoGame> ShownGames { get; set; } = new();
+        public List<dynamic> ShownGames { get; set; } = new();
 
-        public VideoGamesModel(LoginContext context, UserManager<IdentityUser> userManager)
+        public VideoGamesModel(UserManager<IdentityUser> userManager)
         {
-            this.context = context;
             this.userManager = userManager;
         }
             
@@ -52,8 +47,8 @@ namespace VideoGameLibrary.Pages
             user = await userManager.GetUserAsync(User);
             if (user != null)
             {
-                Models.Platform? chosenPlatform = PlatformId.HasValue ? (Models.Platform)PlatformId : null;
-                ESRBRating? chosenRating = ESRBRatingId.HasValue ? (ESRBRating)ESRBRatingId : null;
+                var chosenPlatform = PlatformId.HasValue ? PlatformId : null;
+                var chosenRating = ESRBRatingId.HasValue ? ESRBRatingId : null;
 
 
                 ShownGames = context.VideoGames.Where(vg => vg.UserId == user.Id).Where(v => Genre == null || v.Genre.ToLower().Contains(Genre.ToLower()))
@@ -68,7 +63,7 @@ namespace VideoGameLibrary.Pages
             user = await userManager.GetUserAsync(User);
             if(user != null)
             {
-                VideoGame gameToRemove = context.VideoGames.FirstOrDefault(vg => vg.VideoGameId == DeleteId && vg.UserId == user.Id);
+                var gameToRemove = context.VideoGames.FirstOrDefault(vg => vg.VideoGameId == DeleteId && vg.UserId == user.Id);
 
                 if(gameToRemove != null)
                 {
