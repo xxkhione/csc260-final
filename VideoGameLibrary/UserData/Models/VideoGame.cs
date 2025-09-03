@@ -1,7 +1,10 @@
-﻿namespace UserData.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace UserData.Models
 {
     public class VideoGame
     {
+        [Key]
         public int VideoGameId { get; set; }
         public int ApiGameId { get; set; }
         public string Title { get; set; }

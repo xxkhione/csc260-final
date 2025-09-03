@@ -1,7 +1,10 @@
-﻿namespace UserData.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace UserData.Models
 {
     public class WishListGame
     {
+        [Key]
         public int WishListGameId { get; set; }
         public int ApiGameId { get; set; }
         public int VideoGameId { get; set; }
