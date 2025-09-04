@@ -10,7 +10,7 @@ The primary objective of this project is to showcase an understanding of key sof
 
 ## Architecture
 The application is composed of three main components:
-1. Application (Front-end):
+1. VideoGameLibrary (Front-end):
 * This is the user-facing part of the application.
 * It contains the HTML, CSS, and JavaScript for the user interface.
 * It communicates with the back-end microservices to perform all data operations.
@@ -63,7 +63,7 @@ Both services will run on different ports (e.g., 5001 and 5002). The URLs will b
 ### Step 5: Run the Monolithic Application
 Once the two microservices are running, you can run the monolithic front-end application.
 ```
-# In the MonolithicApplication folder
+# In the VideoGameLibrary folder
 dotnet run
 ```
 Your front-end application will start and you can access it in your web browser. You can now register and log in, and the application will use the microservices to handle your data.
