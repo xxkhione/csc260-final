@@ -1,8 +1,5 @@
-using VideoGameLibrary.Data;
-using VideoGameLibrary.Data.DAL;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using System.Net.Security;
 
 namespace VideoGameLibrary
 {
@@ -11,50 +8,41 @@ namespace VideoGameLibrary
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
-            builder.Services.AddDbContext<VideoGameDBContext>(options =>
-                options.UseSqlServer(builder.Configuration.GetConnectionString("VideoGameDBContext") ?? throw new InvalidOperationException("Connection string 'VideoGameDBContext' not found.")));
-            builder.Services.AddDbContext<LoginContext>(options =>
-                options.UseSqlServer(builder.Configuration.GetConnectionString("LoginContextConnection") ?? throw new InvalidOperationException("Connection string 'LoginContext' not found.")));
-
-            builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true).AddEntityFrameworkStores<LoginContext>();
-
-            // Add services to the container.
             builder.Services.AddRazorPages();
-            builder.Services.AddDatabaseDeveloperPageExceptionFilter();
-            builder.Services.AddTransient<IVideoGameDal, VideoGameDBDal>();
-            builder.Services.AddHttpClient<VideoGameApiService>();
-            builder.Services.AddScoped<VideoGameApiService>();
+            builder.Services.AddHttpContextAccessor();
+
+
+            builder.Services.AddHttpClient("UserAuthenticationMicroservice", client =>
+            {
+                client.BaseAddress = new Uri(builder.Configuration["UserAuthenticationMicroservice:BaseUrl"]);
+            }).ConfigurePrimaryHttpMessageHandler(() => new HttpClientHandler
+            {
+                ServerCertificateCustomValidationCallback = (message, cert, chain, sslPolicyErrors) => true
+            });
+
+            builder.Services.AddHttpClient("UserDataMicroservice", client =>
+            {
+                client.BaseAddress = new Uri(builder.Configuration["UserDataMicroservice:BaseUrl"]);
+            });
+
+            builder.Services.AddHttpContextAccessor();
+
+            builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+                .AddCookie(options =>
+                {
+                    options.LoginPath = "/Account/Login";
+                    options.LogoutPath = "/Account/Logout";
+                });
 
             var app = builder.Build();
 
-            // Configure the HTTP request pipeline.
-            if (!app.Environment.IsDevelopment())
-            {
-                app.UseExceptionHandler("/Error");
-            }
-            else
-            {
-                app.UseDeveloperExceptionPage();
-                app.UseMigrationsEndPoint();
-            }
-
-            using (var scope = app.Services.CreateScope())
-            {
-                var services = scope.ServiceProvider;
-
-                var context = services.GetRequiredService<VideoGameDBContext>();
-                context.Database.EnsureCreated();
-                DBInitializer.Initialize(context);
-            }
-
-            app.UseStaticFiles();
-
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
+            app.UseStaticFiles();
 
             app.MapRazorPages();
-
             app.Run();
         }
     }

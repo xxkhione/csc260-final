@@ -1,6 +1,5 @@
 ﻿@page
-@using VideoGameLibrary.Models
-@using VideoGameLibrary.Pages
+@using UserData.Models.DTOs
 @model LoanModel
 @{
     ViewData["Title"] = "Loan a Game";
@@ -10,12 +9,13 @@
 <h6>Pick a game and enter your name below!</h6>
 <form method="post">
     <div>
-    <label>Game Title:</label>
+        <label>Game Title:</label>
         <select asp-for="LoanGameId">
             @{
-                foreach(VideoGame videoGame in Model.videoGames)
+                foreach (var videoGame in Model.videoGames)
                 {
-                    if(videoGame.LoanedTo == null){
+                    if (videoGame.LoanedTo == null)
+                    {
                         <option value="@videoGame.VideoGameId">@videoGame.Title</option>
                     }
                 }
@@ -24,10 +24,10 @@
     </div>
     <div>
         <label asp-for="PersonLoaningData">Your Name:</label>
-        <input asp-for="PersonLoaningData"/>
+        <input asp-for="PersonLoaningData" />
     </div>
     <div>
-        <input type="submit" value="Loan Game"/>
+        <input type="submit" value="Loan Game" />
     </div>
 </form>
 
@@ -38,7 +38,7 @@
         <label>Game Title:</label>
         <select asp-for="LoanGameId">
             @{
-                foreach (VideoGame videoGame in Model.videoGames)
+                foreach (var videoGame in Model.videoGames)
                 {
                     if (videoGame.LoanedTo != null)
                     {

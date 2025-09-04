@@ -1,63 +1,138 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using System.ComponentModel.DataAnnotations;
-using System.Reflection;
-using VideoGameLibrary.Data.DAL;
-using VideoGameLibrary.Data;
-using VideoGameLibrary.Pages;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Identity;
-using VideoGameLibrary.Models;
-using Microsoft.EntityFrameworkCore;
+using System.Net.Http.Headers;
+using System.Text;
+using System.Text.Json;
+using UserData.Models.DTOs;
 
 namespace VideoGameLibrary.Pages
 {
-    [Authorize]
-    public class LoanModel(LoginContext context, UserManager<IdentityUser> userManager, VideoGameApiService videoGameApiService) : PageModel
+    public class LoanModel : PageModel
     {
-        public readonly LoginContext context = context;
-        private readonly UserManager<IdentityUser> userManager = userManager;
-        private IdentityUser user;
-        public VideoGameApiService videoGameApiService = videoGameApiService;
+        private readonly HttpClient _httpClient;
+        private readonly IConfiguration _configuration;
 
         [BindProperty]
         public required int LoanGameId { get; set; }
         [BindProperty]
         public required string PersonLoaningData { get; set; }
-        public List<VideoGame> videoGames { get; set; } = new();
+        public List<VideoGameDto> videoGames { get; set; } = new();
+
+        public LoanModel(HttpClient httpClient, IConfiguration configuration)
+        {
+            _httpClient = httpClient;
+            _configuration = configuration;
+            _httpClient.BaseAddress = new Uri(_configuration["UserDataMicroservice:BaseUrl"]);
+        }
+
+        private void AddAuthorizationHeader()
+        {
+            var token = HttpContext.Request.Cookies["AuthToken"];
+            if (!string.IsNullOrEmpty(token))
+            {
+                _httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+            }
+        }
 
         public async Task OnGetAsync()
         {
-            user = await userManager.GetUserAsync(User);
-            if (user != null)
+            AddAuthorizationHeader();
+            var response = await _httpClient.GetAsync("api/users/videogames");
+
+            if(response.IsSuccessStatusCode)
             {
-                videoGames = context.VideoGames.Where(vg => vg.UserId == user.Id).ToList();
+                var content = await response.Content.ReadAsStringAsync();
+                videoGames = JsonSerializer.Deserialize<List<VideoGameDto>>(content, new JsonSerializerOptions
+                {
+                    PropertyNameCaseInsensitive = true
+                }) ?? new List<VideoGameDto>();
             }
         }
 
         public async Task<IActionResult> OnPost()
         {
-            var game = await context.VideoGames.FirstOrDefaultAsync(vg => vg.VideoGameId == LoanGameId && vg.UserId == user.Id);
+            AddAuthorizationHeader();
 
-            if (game != null)
+            var getResponse = await _httpClient.GetAsync($"api/users/videogames/{LoanGameId}");
+            if (!getResponse.IsSuccessStatusCode)
             {
-                game.LoanedTo = PersonLoaningData;
-                game.LoanedDate = DateTime.Now;
-                context.SaveChanges();
+                ModelState.AddModelError(string.Empty, "Game not found in your collection.");
+                return Page();
             }
+
+            var existingGame = JsonSerializer.Deserialize<VideoGameDto>(
+                await getResponse.Content.ReadAsStringAsync(),
+                new JsonSerializerOptions { 
+                    PropertyNameCaseInsensitive = true 
+                });
+
+            if (existingGame == null)
+            {
+                ModelState.AddModelError(string.Empty, "Failed to retrieve existing game details.");
+                return Page();
+            }
+
+            existingGame.LoanedTo = PersonLoaningData;
+            existingGame.LoanedDate = DateTime.Now;
+
+            var jsonContent = new StringContent(
+                JsonSerializer.Serialize(existingGame),
+                Encoding.UTF8,
+                "application/json"
+            );
+
+            var putResponse = await _httpClient.PutAsync($"api/users/videogames/{LoanGameId}", jsonContent);
+
+            if (!putResponse.IsSuccessStatusCode)
+            {
+                ModelState.AddModelError(string.Empty, "Error loaning the game.");
+                return Page();
+            }
+
             return RedirectToPage("/VideoGames");
         }
 
         public async Task<IActionResult> OnPostReturn()
         {
-            var game = await context.VideoGames.FirstOrDefaultAsync(vg => vg.VideoGameId == LoanGameId && vg.UserId == user.Id);
+            AddAuthorizationHeader();
 
-            if (game != null)
+            var getResponse = await _httpClient.GetAsync($"api/users/videogames/{LoanGameId}");
+            if (!getResponse.IsSuccessStatusCode)
             {
-                game.LoanedTo = null;
-                game.LoanedDate = null;
-                context.SaveChanges();
+                ModelState.AddModelError(string.Empty, "Game not found in your collection.");
+                return Page();
             }
+
+            var existingGame = JsonSerializer.Deserialize<VideoGameDto>(
+                await getResponse.Content.ReadAsStringAsync(),
+                new JsonSerializerOptions
+                {
+                    PropertyNameCaseInsensitive = true
+                });
+
+            if (existingGame == null)
+            {
+                ModelState.AddModelError(string.Empty, "Failed to retrieve existing game details.");
+                return Page();
+            }
+
+            existingGame.LoanedTo = null;
+            existingGame.LoanedDate = null;
+
+            var jsonContent = new StringContent(
+                JsonSerializer.Serialize(existingGame),
+                Encoding.UTF8,
+                "application/json"
+            );
+
+            var putResponse = await _httpClient.PutAsync($"api/users/videogames/{LoanGameId}", jsonContent);
+
+            if (!putResponse.IsSuccessStatusCode)
+            {
+                ModelState.AddModelError(string.Empty, "Error loaning the game.");
+                return Page();
+            }
+
             return RedirectToPage("/VideoGames");
         }
     }

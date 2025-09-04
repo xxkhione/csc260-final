@@ -13,11 +13,15 @@ namespace UserData.Services
             _context = context;
         }
 
-        public async Task<List<VideoGameDto>> GetVideoGamesForUserAsync(string userId, string? genre, string? platform, string? esrbRating)
+        public async Task<List<VideoGameDto>> GetVideoGamesForUserAsync(string userId, string? title, string? genre, string? platform, string? esrbRating)
         {
             var query = _context.VideoGames
                 .Where(vg => vg.UserId == userId);
 
+            if(!string.IsNullOrEmpty(title))
+            {
+                query = query.Where(vg => vg.Title.ToLower().Contains(title.ToLower()));
+            }
             if (!string.IsNullOrEmpty(genre))
             {
                 query = query.Where(vg => vg.Genre.ToLower().Contains(genre.ToLower()));

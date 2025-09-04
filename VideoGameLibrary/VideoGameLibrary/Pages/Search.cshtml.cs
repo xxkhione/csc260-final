@@ -1,69 +1,108 @@
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using VideoGameLibrary.Data;
-using VideoGameLibrary.Models;
+using System.Net.Http.Headers;
+using System.Text.Json;
+using System.Text;
+using UserData.Models.DTOs;
 
 namespace VideoGameLibrary.Pages
 {
-    [Authorize]
-    public class SearchModel(LoginContext context, UserManager<IdentityUser> userManager, VideoGameApiService videoGameApiService) : PageModel
+    public class SearchModel : PageModel
     {
-        public readonly LoginContext context = context;
-        private readonly UserManager<IdentityUser> userManager = userManager;
-        private IdentityUser user;
-        public VideoGameApiService videoGameApiService = videoGameApiService;
+        private readonly HttpClient _httpClient;
+        private readonly IConfiguration _configuration;
 
         [BindProperty]
         public string SearchQuery { get; set; }
 
-        public List<VideoGame> SearchResults { get; set; } = new();
+        public List<VideoGameDto> SearchResults { get; set; } = new();
+
+        public SearchModel(HttpClient httpClient, IConfiguration configuration)
+        {
+            _httpClient = httpClient;
+            _configuration = configuration;
+            _httpClient.BaseAddress = new Uri(_configuration["UserDataMicroservice:BaseUrl"]);
+        }
+
+        private void AddAuthorizationHeader()
+        {
+            var token = HttpContext.Request.Cookies["AuthToken"];
+            if (!string.IsNullOrEmpty(token))
+            {
+                _httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+            }
+        }
 
         public void OnGet()
         {
             
         }
 
-        public async Task<IActionResult> OnPostAddToCollection(int gameId)
+        public async Task<IActionResult> OnPostSearch()
         {
-            user = await userManager.GetUserAsync(User);
-            if (user != null)
+            if (string.IsNullOrEmpty(SearchQuery))
             {
-                VideoGame game = await videoGameApiService.GetGameFromDatabase(user.Id, gameId);
+                return Page();
             }
+
+            var response = await _httpClient.GetAsync($"api/games?searchQuery={Uri.EscapeDataString(SearchQuery)}");
+
+            if (response.IsSuccessStatusCode)
+            {
+                var content = await response.Content.ReadAsStringAsync();
+                SearchResults = JsonSerializer.Deserialize<List<VideoGameDto>>(content, new JsonSerializerOptions
+                {
+                    PropertyNameCaseInsensitive = true
+                }) ?? new List<VideoGameDto>();
+            }
+            else
+            {
+                SearchResults = new List<VideoGameDto>();
+                ModelState.AddModelError(string.Empty, "Error retrieving games from the external API.");
+            }
+
             return Page();
         }
 
-        public async Task<IActionResult> OnPostAddToWishList(int gameId)
+        public async Task<IActionResult> OnPostAddToCollection(int gameId)
         {
-            user = await userManager.GetUserAsync(User);
-            if (user != null)
+            AddAuthorizationHeader();
+            var getResponse = await _httpClient.GetAsync($"api/games/{gameId}");
+
+            if (!getResponse.IsSuccessStatusCode)
             {
-                WishListGame game = await videoGameApiService.GetWishGameFromDatabase(user.Id, gameId);
+                ModelState.AddModelError(string.Empty, "Game not found in external API.");
+                return Page();
             }
-            return Page();
-        }
-        public async Task<IActionResult> OnPostSearch()
-        {
-            user = await userManager.GetUserAsync(User);
-            if (user != null)
+
+            var gameDetails = JsonSerializer.Deserialize<VideoGameDto>(
+                await getResponse.Content.ReadAsStringAsync(),
+                new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+
+            if (gameDetails == null)
             {
-                if (!string.IsNullOrEmpty(SearchQuery))
-                {
-                    SearchResults = await videoGameApiService.GetGamesAsync(SearchQuery);
-                    if (SearchResults != null)
-                    {
-                        user = await userManager.GetUserAsync(User);
-                        if (user != null)
-                        {
-                            List<VideoGame> ownedGames = context.VideoGames.Where(vg => vg.UserId == user.Id).ToList();
-                            SearchResults = SearchResults.Where(vg => !ownedGames.Any(y => y.VideoGameId == vg.VideoGameId)).ToList();
-                        }
-                    }
-                }
+                ModelState.AddModelError(string.Empty, "Failed to retrieve game details.");
+                return Page();
             }
-            return Page();
+
+            var userDataClient = new HttpClient();
+            userDataClient.BaseAddress = new Uri(_configuration["UserDataMicroservice:BaseUrl"]);
+            AddAuthorizationHeader();
+
+            var jsonContent = new StringContent(
+                JsonSerializer.Serialize(gameDetails),
+                Encoding.UTF8,
+                "application/json"
+            );
+
+            var postResponse = await userDataClient.PostAsync("api/users/videogames", jsonContent);
+
+            if (!postResponse.IsSuccessStatusCode)
+            {
+                ModelState.AddModelError(string.Empty, "Error adding game to your collection.");
+            }
+
+            return RedirectToPage("/Search", new { searchQuery = SearchQuery });
         }
     }
 }

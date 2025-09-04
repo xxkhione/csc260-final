@@ -126,8 +126,5 @@ namespace UserData.Services
             }
             return ESRBRating.Unknown;
         }
-
-
-
     }
 }

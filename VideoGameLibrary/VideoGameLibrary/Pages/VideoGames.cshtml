@@ -1,10 +1,10 @@
 ﻿@page
-@using VideoGameLibrary.Models
-@using VideoGameLibrary.Pages
-@model VideoGamesModel
+@using UserData.Models.DTOs
+@model VideoGameLibrary.Pages.VideoGamesModel
 @{
     ViewData["Title"] = "VideoGames";
 }
+
 <div class="form-div">
     <form method="post" asp-page-handler="Search" class="search-and-filter-form">
         <label>Search Term:</label>
@@ -16,26 +16,30 @@
     <form method="post" asp-page-handler="Filter" class="search-and-filter-form">
         <label>Genre:</label>
         <input asp-for="Genre" />
+
         <label>Platform:</label>
-        <select asp-for="PlatformId">
+        <select asp-for="Platform">
             <option value=""></option>
-            @{
-                foreach (Platform platform in Model.Platforms)
-                {
-                    <option value="@((int)platform)">@platform</option>
-                }
-            }
+            <option value="PC">PC</option>
+            <option value="PlayStation">PlayStation</option>
+            <option value="Xbox">Xbox</option>
+            <option value="Nintendo">Nintendo</option>
+            <option value="iOS">iOS</option>
+            <option value="Android">Android</option>
+            <option value="macOS">macOS</option>
+            <option value="Linux">Linux</option>
         </select>
+
         <label>ESRB Rating:</label>
-        <select asp-for="ESRBRatingId">
+        <select asp-for="ESRBRating">
             <option value=""></option>
-            @{
-                foreach (ESRBRating rating in Model.ESRBRatings)
-                {
-                    <option value="@((int)rating)">@rating</option>
-                }
-            }
+            <option value="Everyone">Everyone</option>
+            <option value="Teen">Teen</option>
+            <option value="Mature">Mature</option>
+            <option value="Adults Only">Adults Only</option>
+            <option value="Rating Pending">Rating Pending</option>
         </select>
+
         <input type="submit" value="Filter" />
     </form>
 </div>
@@ -47,12 +51,12 @@
 
 <div>
     @{
-        foreach(VideoGame videoGame in Model.ShownGames)
+        foreach (var videoGame in Model.ShownGames)
         {
-            <partial name="_VideoGamePartial" model="videoGame"/>
+            <partial name="_VideoGamePartial" model="videoGame" />
             <form method="post" asp-page-handler="Delete" class="video-game-delete">
                 <input asp-for="DeleteId" type="hidden" value="@videoGame.VideoGameId" />
-                <input type="submit" value="Delete Game"/>
+                <input type="submit" value="Delete Game" />
             </form>
         }
     }

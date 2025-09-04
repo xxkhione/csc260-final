@@ -4,7 +4,7 @@ namespace UserData.Services
 {
     public interface IUserDataService
     {
-        Task<List<VideoGameDto>> GetVideoGamesForUserAsync(string userId, string? genre, string? platform, string? esrbRating);
+        Task<List<VideoGameDto>> GetVideoGamesForUserAsync(string userId, string? title, string? genre, string? platform, string? esrbRating);
         Task<VideoGameDto> AddVideoGameAsync(string userId, VideoGameDto videoGameDto);
         Task<bool> UpdateVideoGameAsync(string userId, VideoGameDto videoGameDto); //handles the loaning functionality, but it's easier to read this way.
         Task<bool> DeleteVideoGameAsync(string userId, int videoGameId);

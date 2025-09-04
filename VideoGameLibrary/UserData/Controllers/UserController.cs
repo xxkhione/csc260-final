@@ -25,12 +25,13 @@ public class UserController : ControllerBase
 
     [HttpGet]
     public async Task<IActionResult> GetVideoGames(
+        [FromQuery] string? title,
         [FromQuery] string? genre,
         [FromQuery] string? platform,
         [FromQuery] string? esrbRating)
     {
         var userId = GetUserId();
-        var games = await _userDataService.GetVideoGamesForUserAsync(userId, genre, platform, esrbRating);
+        var games = await _userDataService.GetVideoGamesForUserAsync(userId, title, genre, platform, esrbRating);
         return Ok(games);
     }
 

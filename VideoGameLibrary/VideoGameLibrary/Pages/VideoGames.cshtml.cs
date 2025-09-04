@@ -1,16 +1,18 @@
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.CodeAnalysis;
+using System.Net.Http.Headers;
+using System.Text;
+using System.Text.Json;
+using UserData.Models;
+using UserData.Models.DTOs;
 
 namespace VideoGameLibrary.Pages
 {
-    [Authorize]
     public class VideoGamesModel : PageModel
     {
-        private readonly UserManager<IdentityUser> userManager;
-        private IdentityUser user;
+        private readonly HttpClient _httpClient;
+        private readonly IConfiguration _configuration;
 
         [BindProperty]
         public required int DeleteId { get; set; }
@@ -19,73 +21,114 @@ namespace VideoGameLibrary.Pages
         [BindProperty]
         public string? Genre { get; set; }
         [BindProperty]
-        public int? PlatformId { get; set; }
-        public List<dynamic> Platforms { get; set; }
+        public string? Platform { get; set; }
         [BindProperty]
-        public int? ESRBRatingId { get; set; }
-        public List<dynamic> ESRBRatings { get; set; }
+        public string? ESRBRating { get; set; }
 
-        
-        public List<dynamic> ShownGames { get; set; } = new();
+        public List<VideoGameDto> ShownGames { get; set; } = new();
 
-        public VideoGamesModel(UserManager<IdentityUser> userManager)
+        public VideoGamesModel(HttpClient httpClient, IConfiguration configuration)
         {
-            this.userManager = userManager;
+            _httpClient = httpClient;
+            _configuration = configuration;
+            _httpClient.BaseAddress = new Uri(_configuration["UserDataMicroservice:BaseUrl"]);
         }
-            
+
+        private void AddAuthorizationHeader()
+        {
+            var token = HttpContext.Request.Cookies["AuthToken"];
+            if (!string.IsNullOrEmpty(token))
+            {
+                _httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+            }
+        }
 
         public async Task OnGetAsync()
         {
-            user = await userManager.GetUserAsync(User);
-            if(user != null)
+            AddAuthorizationHeader();
+            var response = await _httpClient.GetAsync("api/users/videogames");
+            if (response.IsSuccessStatusCode)
             {
-                ShownGames = context.VideoGames.Where(g => g.UserId == user.Id).ToList();
+                var content = await response.Content.ReadAsStringAsync();
+                ShownGames = JsonSerializer.Deserialize<List<VideoGameDto>>(content, new JsonSerializerOptions
+                {
+                    PropertyNameCaseInsensitive = true
+                }) ?? new List<VideoGameDto>();
+            }
+            else
+            {
+                ShownGames = new List<VideoGameDto>();
             }
         }
+
         public async Task<IActionResult> OnPostFilter()
         {
-            user = await userManager.GetUserAsync(User);
-            if (user != null)
+            AddAuthorizationHeader();
+
+            var query = new StringBuilder("?");
+            if (!string.IsNullOrEmpty(Genre))
             {
-                var chosenPlatform = PlatformId.HasValue ? PlatformId : null;
-                var chosenRating = ESRBRatingId.HasValue ? ESRBRatingId : null;
-
-
-                ShownGames = context.VideoGames.Where(vg => vg.UserId == user.Id).Where(v => Genre == null || v.Genre.ToLower().Contains(Genre.ToLower()))
-                    .Where(v => chosenPlatform == null || v.Platform == chosenPlatform)
-                    .Where(v => chosenRating == null || v.ESRBRating == chosenRating).ToList();
+                query.Append($"genre={Uri.EscapeDataString(Genre)}&");
             }
-            
+            if (!string.IsNullOrEmpty(Platform))
+            {
+                query.Append($"platform={Uri.EscapeDataString(Platform)}&");
+            }
+            if (!string.IsNullOrEmpty(ESRBRating))
+            {
+                query.Append($"esrbRating={Uri.EscapeDataString(ESRBRating)}&");
+            }
+
+            var response = await _httpClient.GetAsync($"api/users/videogames{query.ToString().TrimEnd('&')}");
+
+            if (response.IsSuccessStatusCode)
+            {
+                var content = await response.Content.ReadAsStringAsync();
+                ShownGames = JsonSerializer.Deserialize<List<VideoGameDto>>(content, new JsonSerializerOptions
+                {
+                    PropertyNameCaseInsensitive = true
+                }) ?? new List<VideoGameDto>();
+            }
+            else
+            {
+                ShownGames = new List<VideoGameDto>();
+            }
+
             return Page();
         }
+
         public async Task<IActionResult> OnPostDelete()
         {
-            user = await userManager.GetUserAsync(User);
-            if(user != null)
-            {
-                var gameToRemove = context.VideoGames.FirstOrDefault(vg => vg.VideoGameId == DeleteId && vg.UserId == user.Id);
+            AddAuthorizationHeader();
 
-                if(gameToRemove != null)
-                {
-                    context.VideoGames.Remove(gameToRemove);
-                    await context.SaveChangesAsync();
-                }
+            var response = await _httpClient.DeleteAsync($"api/users/videogames/{DeleteId}");
+
+            if (!response.IsSuccessStatusCode)
+            {
+                
             }
-            return Page();
+            return RedirectToPage();
         }
+
         public async Task<IActionResult> OnPostSearch()
         {
-            user = await userManager.GetUserAsync(User);
-            if(user != null)
-            {
-                if (SearchKey == "" || SearchKey == null)
-                {
-                    ShownGames = context.VideoGames.Where(v => v.UserId == user.Id).ToList();
-                    return Page();
-                }
-                SearchKey = SearchKey.ToLower();
+            AddAuthorizationHeader();
 
-                ShownGames = context.VideoGames.Where(v => v.UserId == user.Id).Where(v => v.Title.ToLower().Contains(SearchKey)).ToList();
+            var queryString = string.IsNullOrEmpty(SearchKey) ? "" : $"?searchQuery={Uri.EscapeDataString(SearchKey)}";
+            var response = await _httpClient.GetAsync($"api/users/videogames{queryString}");
+
+            if (response.IsSuccessStatusCode)
+            {
+                var content = await response.Content.ReadAsStringAsync();
+                ShownGames = JsonSerializer.Deserialize<List<VideoGameDto>>(content, new JsonSerializerOptions
+                {
+                    PropertyNameCaseInsensitive = true
+                }) ?? new List<VideoGameDto>();
+            }
+            else
+            {
+                ShownGames = new List<VideoGameDto>();
+                ModelState.AddModelError(string.Empty, "Error retrieving games from the microservice.");
             }
             return Page();
         }
