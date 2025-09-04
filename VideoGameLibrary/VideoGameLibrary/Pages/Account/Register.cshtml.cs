@@ -6,7 +6,7 @@ namespace VideoGameLibrary.Pages.Account
 {
     public class RegisterModel : PageModel
     {
-        private readonly HttpClient _httpClient;
+        private readonly IHttpClientFactory _httpClientFactory;
 
         [Required]
         [EmailAddress]
@@ -26,9 +26,9 @@ namespace VideoGameLibrary.Pages.Account
         public string ConfirmPassword { get; set; }
         
 
-        public RegisterModel(HttpClient httpClient)
+        public RegisterModel(IHttpClientFactory httpClientFactory)
         {
-            _httpClient = httpClient;
+            _httpClientFactory = httpClientFactory;
         }
 
         public void OnGet()
@@ -43,7 +43,9 @@ namespace VideoGameLibrary.Pages.Account
             }
 
             var registrationData = new { Email, Password };
-            var response = await _httpClient.PostAsJsonAsync("https://localhost:5270/api/Auth/register", registrationData);
+            var client = _httpClientFactory.CreateClient("UserAuthenticationMicroservice");
+
+            var response = await client.PostAsJsonAsync("api/auth/register", registrationData);
 
             if (response.IsSuccessStatusCode)
             {

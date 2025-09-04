@@ -1,28 +1,12 @@
 ﻿@using Microsoft.AspNetCore.Http
-@using System.IdentityModel.Tokens.Jwt
+@using System.Security.Claims
 @inject IHttpContextAccessor HttpContextAccessor
 
 <ul class="navbar-nav">
     @{
-        string username = null;
-        var token = HttpContextAccessor.HttpContext.Request.Cookies["AuthToken"];
-        var isAuthenticated = !string.IsNullOrEmpty(token);
-
-        if (isAuthenticated)
-        {
-            try
-            {
-                var handler = new JwtSecurityTokenHandler();
-                var jwtToken = handler.ReadJwtToken(token);
-                username = jwtToken.Claims.FirstOrDefault(c => c.Type == JwtRegisteredClaimNames.Email)?.Value;
-            }
-            catch
-            {
-                isAuthenticated = false;
-            }
-        }
+        var username = User.FindFirst(ClaimTypes.Email)?.Value;
     }
-    @if (isAuthenticated)
+    @if (User.Identity.IsAuthenticated)
     {
         <li class="nav-item">
             <a id="manage" class="nav-link text-dark" href="/Account/Manage" title="Manage">Hello @username!</a>

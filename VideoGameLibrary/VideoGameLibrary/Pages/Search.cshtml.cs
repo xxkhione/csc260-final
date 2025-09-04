@@ -4,12 +4,13 @@ using System.Net.Http.Headers;
 using System.Text.Json;
 using System.Text;
 using UserData.Models.DTOs;
+using System.Net.Http;
 
 namespace VideoGameLibrary.Pages
 {
     public class SearchModel : PageModel
     {
-        private readonly HttpClient _httpClient;
+        private readonly IHttpClientFactory _httpClientFactory;
         private readonly IConfiguration _configuration;
 
         [BindProperty]
@@ -17,20 +18,10 @@ namespace VideoGameLibrary.Pages
 
         public List<VideoGameDto> SearchResults { get; set; } = new();
 
-        public SearchModel(HttpClient httpClient, IConfiguration configuration)
+        public SearchModel(IHttpClientFactory httpClientFactory, IConfiguration configuration)
         {
-            _httpClient = httpClient;
+            _httpClientFactory = httpClientFactory;
             _configuration = configuration;
-            _httpClient.BaseAddress = new Uri(_configuration["UserDataMicroservice:BaseUrl"]);
-        }
-
-        private void AddAuthorizationHeader()
-        {
-            var token = HttpContext.Request.Cookies["AuthToken"];
-            if (!string.IsNullOrEmpty(token))
-            {
-                _httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
-            }
         }
 
         public void OnGet()
@@ -40,12 +31,15 @@ namespace VideoGameLibrary.Pages
 
         public async Task<IActionResult> OnPostSearch()
         {
-            if (string.IsNullOrEmpty(SearchQuery))
+            var client = _httpClientFactory.CreateClient("ExternalGamesAPI");
+
+            var token = User.FindFirst("Token")?.Value;
+            if (!string.IsNullOrEmpty(token))
             {
-                return Page();
+                client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
             }
 
-            var response = await _httpClient.GetAsync($"api/games?searchQuery={Uri.EscapeDataString(SearchQuery)}");
+            var response = await client.GetAsync($"api/games?searchQuery={Uri.EscapeDataString(SearchQuery)}");
 
             if (response.IsSuccessStatusCode)
             {
@@ -58,7 +52,7 @@ namespace VideoGameLibrary.Pages
             else
             {
                 SearchResults = new List<VideoGameDto>();
-                ModelState.AddModelError(string.Empty, "Error retrieving games from the external API.");
+                ModelState.AddModelError(string.Empty, "Error retrieving games from the API.");
             }
 
             return Page();
@@ -66,8 +60,18 @@ namespace VideoGameLibrary.Pages
 
         public async Task<IActionResult> OnPostAddToCollection(int gameId)
         {
-            AddAuthorizationHeader();
-            var getResponse = await _httpClient.GetAsync($"api/games/{gameId}");
+            var token = User.FindFirst("Token")?.Value;
+            if (string.IsNullOrEmpty(token))
+            {
+                ModelState.AddModelError(string.Empty, "User not authenticated.");
+                return Page();
+            }
+
+            var externalGamesClient = _httpClientFactory.CreateClient("ExternalGamesAPI");
+
+            externalGamesClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+
+            var getResponse = await externalGamesClient.GetAsync($"api/games/{gameId}");
 
             if (!getResponse.IsSuccessStatusCode)
             {
@@ -85,17 +89,10 @@ namespace VideoGameLibrary.Pages
                 return Page();
             }
 
-            var userDataClient = new HttpClient();
-            userDataClient.BaseAddress = new Uri(_configuration["UserDataMicroservice:BaseUrl"]);
-            AddAuthorizationHeader();
+            var userDataClient = _httpClientFactory.CreateClient("UserDataMicroservice");
+            userDataClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
 
-            var jsonContent = new StringContent(
-                JsonSerializer.Serialize(gameDetails),
-                Encoding.UTF8,
-                "application/json"
-            );
-
-            var postResponse = await userDataClient.PostAsync("api/users/videogames", jsonContent);
+            var postResponse = await userDataClient.PostAsJsonAsync("api/users/videogames", gameDetails);
 
             if (!postResponse.IsSuccessStatusCode)
             {

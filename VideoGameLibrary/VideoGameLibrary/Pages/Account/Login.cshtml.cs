@@ -5,6 +5,8 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.Net.Http;
 using System.Security.Claims;
 using System.ComponentModel.DataAnnotations;
+using System.Text.Json;
+using System.IdentityModel.Tokens.Jwt;
 
 namespace VideoGameLibrary.Pages.Account
 {
@@ -33,17 +35,29 @@ namespace VideoGameLibrary.Pages.Account
         public async Task<IActionResult> OnPostAsync()
         {
             var loginData = new { Email, Password };
-            var client = _httpClientFactory.CreateClient("AuthenticationMicroservice");
+            var client = _httpClientFactory.CreateClient("UserAuthenticationMicroservice");
 
             var response = await client.PostAsJsonAsync("api/auth/login", loginData);
 
             if (response.IsSuccessStatusCode)
             {
-                var result = await response.Content.ReadFromJsonAsync<dynamic>();
-                string token = result.token;
+                var responseContent = await response.Content.ReadAsStringAsync();
+                var result = JsonDocument.Parse(responseContent);
+                string token = result.RootElement.GetProperty("token").GetString();
 
-                var claims = new List<Claim> { new Claim(ClaimTypes.NameIdentifier, "user-id"), new Claim("Token", token) };
-                var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+                // Decode the JWT to extract the claims
+                var handler = new JwtSecurityTokenHandler();
+                var jwtToken = handler.ReadJwtToken(token);
+                var emailClaim = jwtToken.Claims.FirstOrDefault(c => c.Type == JwtRegisteredClaimNames.Email);
+
+                var claims = new List<Claim> { new Claim("Token", token) };
+                if (emailClaim != null)
+                {
+                    // Add the email claim to the identity for easy access
+                    claims.Add(new Claim(ClaimTypes.Email, emailClaim.Value));
+                }
+
+                var claimsIdentity = new ClaimsIdentity(claims, "Cookies");
                 var authProperties = new AuthenticationProperties { IsPersistent = true };
 
                 await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(claimsIdentity), authProperties);

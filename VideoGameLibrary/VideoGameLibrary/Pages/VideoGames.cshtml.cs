@@ -1,17 +1,15 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.CodeAnalysis;
 using System.Net.Http.Headers;
 using System.Text;
 using System.Text.Json;
-using UserData.Models;
 using UserData.Models.DTOs;
 
 namespace VideoGameLibrary.Pages
 {
     public class VideoGamesModel : PageModel
     {
-        private readonly HttpClient _httpClient;
+        private readonly IHttpClientFactory _httpClientFactory;
         private readonly IConfiguration _configuration;
 
         [BindProperty]
@@ -27,26 +25,24 @@ namespace VideoGameLibrary.Pages
 
         public List<VideoGameDto> ShownGames { get; set; } = new();
 
-        public VideoGamesModel(HttpClient httpClient, IConfiguration configuration)
+        public VideoGamesModel(IHttpClientFactory httpClientFactory, IConfiguration configuration)
         {
-            _httpClient = httpClient;
+            _httpClientFactory = httpClientFactory;
             _configuration = configuration;
-            _httpClient.BaseAddress = new Uri(_configuration["UserDataMicroservice:BaseUrl"]);
-        }
-
-        private void AddAuthorizationHeader()
-        {
-            var token = HttpContext.Request.Cookies["AuthToken"];
-            if (!string.IsNullOrEmpty(token))
-            {
-                _httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
-            }
         }
 
         public async Task OnGetAsync()
         {
-            AddAuthorizationHeader();
-            var response = await _httpClient.GetAsync("api/users/videogames");
+            var token = User.FindFirst("Token")?.Value;
+            if (string.IsNullOrEmpty(token))
+            {
+                return;
+            }
+
+            var client = _httpClientFactory.CreateClient("UserDataMicroservice");
+            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+            var response = await client.GetAsync($"api/users/videogames");
+
             if (response.IsSuccessStatusCode)
             {
                 var content = await response.Content.ReadAsStringAsync();
@@ -63,7 +59,11 @@ namespace VideoGameLibrary.Pages
 
         public async Task<IActionResult> OnPostFilter()
         {
-            AddAuthorizationHeader();
+            var token = User.FindFirst("Token")?.Value;
+            if (string.IsNullOrEmpty(token))
+            {
+                return Page();
+            }
 
             var query = new StringBuilder("?");
             if (!string.IsNullOrEmpty(Genre))
@@ -79,7 +79,9 @@ namespace VideoGameLibrary.Pages
                 query.Append($"esrbRating={Uri.EscapeDataString(ESRBRating)}&");
             }
 
-            var response = await _httpClient.GetAsync($"api/users/videogames{query.ToString().TrimEnd('&')}");
+            var client = _httpClientFactory.CreateClient("UserDataMicroservice");
+            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+            var response = await client.GetAsync($"api/users/videogames{query.ToString().TrimEnd('&')}");
 
             if (response.IsSuccessStatusCode)
             {
@@ -99,9 +101,15 @@ namespace VideoGameLibrary.Pages
 
         public async Task<IActionResult> OnPostDelete()
         {
-            AddAuthorizationHeader();
+            var token = User.FindFirst("Token")?.Value;
+            if (string.IsNullOrEmpty(token))
+            {
+                return Page();
+            }
 
-            var response = await _httpClient.DeleteAsync($"api/users/videogames/{DeleteId}");
+            var client = _httpClientFactory.CreateClient("UserDataMicroservice");
+            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+            var response = await client.GetAsync($"api/users/videogames/{DeleteId}");
 
             if (!response.IsSuccessStatusCode)
             {
@@ -112,10 +120,16 @@ namespace VideoGameLibrary.Pages
 
         public async Task<IActionResult> OnPostSearch()
         {
-            AddAuthorizationHeader();
+            var token = User.FindFirst("Token")?.Value;
+            if (string.IsNullOrEmpty(token))
+            {
+                return Page();
+            }
 
             var queryString = string.IsNullOrEmpty(SearchKey) ? "" : $"?searchQuery={Uri.EscapeDataString(SearchKey)}";
-            var response = await _httpClient.GetAsync($"api/users/videogames{queryString}");
+            var client = _httpClientFactory.CreateClient("UserDataMicroservice");
+            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+            var response = await client.GetAsync($"api/users/videogames{queryString}");
 
             if (response.IsSuccessStatusCode)
             {

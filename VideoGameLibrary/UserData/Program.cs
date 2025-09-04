@@ -22,6 +22,7 @@ namespace UserData
 
             // Add your custom services
             builder.Services.AddScoped<IUserDataService, UserDataService>();
+            builder.Services.AddScoped<VideoGameApiService>();
 
             // Add JWT Authentication
             builder.Services.AddAuthentication(options =>
@@ -57,19 +58,24 @@ namespace UserData
                     Scheme = "bearer"
                 });
                 c.AddSecurityRequirement(new OpenApiSecurityRequirement
-    {
-        {
-            new OpenApiSecurityScheme
-            {
-                Reference = new OpenApiReference
                 {
-                    Type = ReferenceType.SecurityScheme,
-                    Id = "Bearer"
-                }
-            },
-            new string[] { }
-        }
-    });
+                    {
+                        new OpenApiSecurityScheme
+                        {
+                            Reference = new OpenApiReference
+                            {
+                                Type = ReferenceType.SecurityScheme,
+                                Id = "Bearer"
+                            }
+                        },
+                        new string[] { }
+                    }
+                });
+            });
+
+            builder.Services.AddHttpClient("RawgApi", client =>
+            {
+                client.BaseAddress = new Uri("https://api.rawg.io/api/");
             });
 
             var app = builder.Build();

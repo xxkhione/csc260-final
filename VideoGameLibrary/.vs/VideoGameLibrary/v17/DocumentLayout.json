@@ -1,7 +1,44 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Courses\\Q8\\PRO250\\microservice\\VideoGameLibrary\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{809FED6B-D54E-4FE9-A68D-D6AF390E157B}|VideoGameLibrary\\VideoGameLibrary.csproj|c:\\courses\\q8\\pro250\\microservice\\videogamelibrary\\videogamelibrary\\pages\\videogames.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{809FED6B-D54E-4FE9-A68D-D6AF390E157B}|VideoGameLibrary\\VideoGameLibrary.csproj|solutionrelative:videogamelibrary\\pages\\videogames.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{809FED6B-D54E-4FE9-A68D-D6AF390E157B}|VideoGameLibrary\\VideoGameLibrary.csproj|c:\\courses\\q8\\pro250\\microservice\\videogamelibrary\\videogamelibrary\\pages\\_videogamepartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{809FED6B-D54E-4FE9-A68D-D6AF390E157B}|VideoGameLibrary\\VideoGameLibrary.csproj|solutionrelative:videogamelibrary\\pages\\_videogamepartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85CBB41E-CCA1-4AFD-9480-7EAEDD0AAAA8}|UserData\\UserData.csproj|c:\\courses\\q8\\pro250\\microservice\\videogamelibrary\\userdata\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85CBB41E-CCA1-4AFD-9480-7EAEDD0AAAA8}|UserData\\UserData.csproj|solutionrelative:userdata\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85CBB41E-CCA1-4AFD-9480-7EAEDD0AAAA8}|UserData\\UserData.csproj|c:\\courses\\q8\\pro250\\microservice\\videogamelibrary\\userdata\\services\\videogameapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85CBB41E-CCA1-4AFD-9480-7EAEDD0AAAA8}|UserData\\UserData.csproj|solutionrelative:userdata\\services\\videogameapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85CBB41E-CCA1-4AFD-9480-7EAEDD0AAAA8}|UserData\\UserData.csproj|c:\\courses\\q8\\pro250\\microservice\\videogamelibrary\\userdata\\controllers\\gamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85CBB41E-CCA1-4AFD-9480-7EAEDD0AAAA8}|UserData\\UserData.csproj|solutionrelative:userdata\\controllers\\gamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85CBB41E-CCA1-4AFD-9480-7EAEDD0AAAA8}|UserData\\UserData.csproj|c:\\courses\\q8\\pro250\\microservice\\videogamelibrary\\userdata\\models\\dtos\\platformdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85CBB41E-CCA1-4AFD-9480-7EAEDD0AAAA8}|UserData\\UserData.csproj|solutionrelative:userdata\\models\\dtos\\platformdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85CBB41E-CCA1-4AFD-9480-7EAEDD0AAAA8}|UserData\\UserData.csproj|c:\\courses\\q8\\pro250\\microservice\\videogamelibrary\\userdata\\services\\userdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85CBB41E-CCA1-4AFD-9480-7EAEDD0AAAA8}|UserData\\UserData.csproj|solutionrelative:userdata\\services\\userdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85CBB41E-CCA1-4AFD-9480-7EAEDD0AAAA8}|UserData\\UserData.csproj|c:\\courses\\q8\\pro250\\microservice\\videogamelibrary\\userdata\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85CBB41E-CCA1-4AFD-9480-7EAEDD0AAAA8}|UserData\\UserData.csproj|solutionrelative:userdata\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{809FED6B-D54E-4FE9-A68D-D6AF390E157B}|VideoGameLibrary\\VideoGameLibrary.csproj|c:\\courses\\q8\\pro250\\microservice\\videogamelibrary\\videogamelibrary\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{809FED6B-D54E-4FE9-A68D-D6AF390E157B}|VideoGameLibrary\\VideoGameLibrary.csproj|solutionrelative:videogamelibrary\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +46,120 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_VideoGamePartial.cshtml",
+              "DocumentMoniker": "C:\\Courses\\Q8\\PRO250\\microservice\\VideoGameLibrary\\VideoGameLibrary\\Pages\\_VideoGamePartial.cshtml",
+              "RelativeDocumentMoniker": "VideoGameLibrary\\Pages\\_VideoGamePartial.cshtml",
+              "ToolTip": "C:\\Courses\\Q8\\PRO250\\microservice\\VideoGameLibrary\\VideoGameLibrary\\Pages\\_VideoGamePartial.cshtml",
+              "RelativeToolTip": "VideoGameLibrary\\Pages\\_VideoGamePartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-04T20:55:44.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VideoGames.cshtml.cs",
+              "DocumentMoniker": "C:\\Courses\\Q8\\PRO250\\microservice\\VideoGameLibrary\\VideoGameLibrary\\Pages\\VideoGames.cshtml.cs",
+              "RelativeDocumentMoniker": "VideoGameLibrary\\Pages\\VideoGames.cshtml.cs",
+              "ToolTip": "C:\\Courses\\Q8\\PRO250\\microservice\\VideoGameLibrary\\VideoGameLibrary\\Pages\\VideoGames.cshtml.cs",
+              "RelativeToolTip": "VideoGameLibrary\\Pages\\VideoGames.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T20:55:39.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Courses\\Q8\\PRO250\\microservice\\VideoGameLibrary\\UserData\\Program.cs",
+              "RelativeDocumentMoniker": "UserData\\Program.cs",
+              "ToolTip": "C:\\Courses\\Q8\\PRO250\\microservice\\VideoGameLibrary\\UserData\\Program.cs",
+              "RelativeToolTip": "UserData\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T19:15:33.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VideoGameApiService.cs",
+              "DocumentMoniker": "C:\\Courses\\Q8\\PRO250\\microservice\\VideoGameLibrary\\UserData\\Services\\VideoGameApiService.cs",
+              "RelativeDocumentMoniker": "UserData\\Services\\VideoGameApiService.cs",
+              "ToolTip": "C:\\Courses\\Q8\\PRO250\\microservice\\VideoGameLibrary\\UserData\\Services\\VideoGameApiService.cs",
+              "RelativeToolTip": "UserData\\Services\\VideoGameApiService.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAswEYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T18:28:34.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserDataService.cs",
+              "DocumentMoniker": "C:\\Courses\\Q8\\PRO250\\microservice\\VideoGameLibrary\\UserData\\Services\\UserDataService.cs",
+              "RelativeDocumentMoniker": "UserData\\Services\\UserDataService.cs",
+              "ToolTip": "C:\\Courses\\Q8\\PRO250\\microservice\\VideoGameLibrary\\UserData\\Services\\UserDataService.cs",
+              "RelativeToolTip": "UserData\\Services\\UserDataService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T18:24:26.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Courses\\Q8\\PRO250\\microservice\\VideoGameLibrary\\UserData\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "UserData\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Courses\\Q8\\PRO250\\microservice\\VideoGameLibrary\\UserData\\Controllers\\UserController.cs",
+              "RelativeToolTip": "UserData\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T18:24:12.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PlatformDto.cs",
+              "DocumentMoniker": "C:\\Courses\\Q8\\PRO250\\microservice\\VideoGameLibrary\\UserData\\Models\\DTOs\\PlatformDto.cs",
+              "RelativeDocumentMoniker": "UserData\\Models\\DTOs\\PlatformDto.cs",
+              "ToolTip": "C:\\Courses\\Q8\\PRO250\\microservice\\VideoGameLibrary\\UserData\\Models\\DTOs\\PlatformDto.cs",
+              "RelativeToolTip": "UserData\\Models\\DTOs\\PlatformDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T18:23:16.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Courses\\Q8\\PRO250\\microservice\\VideoGameLibrary\\VideoGameLibrary\\Program.cs",
+              "RelativeDocumentMoniker": "VideoGameLibrary\\Program.cs",
+              "ToolTip": "C:\\Courses\\Q8\\PRO250\\microservice\\VideoGameLibrary\\VideoGameLibrary\\Program.cs",
+              "RelativeToolTip": "VideoGameLibrary\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAwwB0AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T09:02:33.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GamesController.cs",
+              "DocumentMoniker": "C:\\Courses\\Q8\\PRO250\\microservice\\VideoGameLibrary\\UserData\\Controllers\\GamesController.cs",
+              "RelativeDocumentMoniker": "UserData\\Controllers\\GamesController.cs",
+              "ToolTip": "C:\\Courses\\Q8\\PRO250\\microservice\\VideoGameLibrary\\UserData\\Controllers\\GamesController.cs",
+              "RelativeToolTip": "UserData\\Controllers\\GamesController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T08:59:34.524Z"
             }
           ]
         }

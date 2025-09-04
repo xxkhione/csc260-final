@@ -24,6 +24,10 @@ namespace VideoGameLibrary
             {
                 client.BaseAddress = new Uri(builder.Configuration["UserDataMicroservice:BaseUrl"]);
             });
+            builder.Services.AddHttpClient("ExternalGamesAPI", client =>
+            {
+                client.BaseAddress = new Uri(builder.Configuration["ExternalGamesAPI:BaseUrl"]);
+            });
 
             builder.Services.AddHttpContextAccessor();
 

@@ -85,14 +85,20 @@ namespace UserData.Services
 
         private Platform GetPlatform(JsonElement gameElement)
         {
-            if (gameElement.TryGetProperty("parent_platforms", out var platforms))
+            if (gameElement.TryGetProperty("platforms", out var platforms))
             {
                 if (platforms.ValueKind == JsonValueKind.Array && platforms.GetArrayLength() > 0)
                 {
-                    var platformName = platforms[0].GetProperty("platform").GetProperty("name").GetString();
-                    if (Enum.TryParse(platformName.Replace(" ", ""), true, out Platform platform))
+                    if (platforms[0].TryGetProperty("platform", out var platformElement))
                     {
-                        return platform;
+                        if (platformElement.TryGetProperty("name", out var nameElement) && nameElement.ValueKind == JsonValueKind.String)
+                        {
+                            var platformName = nameElement.GetString();
+                            if (Enum.TryParse(platformName.Replace(" ", ""), true, out Platform platform))
+                            {
+                                return platform;
+                            }
+                        }
                     }
                 }
             }
