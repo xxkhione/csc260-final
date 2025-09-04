@@ -10,7 +10,7 @@ The primary objective of this project is to showcase an understanding of key sof
 
 ## Architecture
 The application is composed of three main components:
-1. Monolithic Application (Front-end):
+1. Application (Front-end):
 * This is the user-facing part of the application.
 * It contains the HTML, CSS, and JavaScript for the user interface.
 * It communicates with the back-end microservices to perform all data operations.
